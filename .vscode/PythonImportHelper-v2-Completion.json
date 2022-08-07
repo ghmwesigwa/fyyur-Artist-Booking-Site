@@ -1,0 +1,659 @@
+[
+    {
+        "label": "json",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "json",
+        "description": "json",
+        "detail": "json",
+        "documentation": {}
+    },
+    {
+        "label": "dateutil.parser",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "dateutil.parser",
+        "description": "dateutil.parser",
+        "detail": "dateutil.parser",
+        "documentation": {}
+    },
+    {
+        "label": "babel",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "babel",
+        "description": "babel",
+        "detail": "babel",
+        "documentation": {}
+    },
+    {
+        "label": "Flask",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "render_template",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "request",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "Response",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "flash",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "redirect",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "url_for",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "Moment",
+        "importPath": "flask_moment",
+        "description": "flask_moment",
+        "isExtraImport": true,
+        "detail": "flask_moment",
+        "documentation": {}
+    },
+    {
+        "label": "SQLAlchemy",
+        "importPath": "flask_sqlalchemy",
+        "description": "flask_sqlalchemy",
+        "isExtraImport": true,
+        "detail": "flask_sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "logging",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "logging",
+        "description": "logging",
+        "detail": "logging",
+        "documentation": {}
+    },
+    {
+        "label": "Formatter",
+        "importPath": "logging",
+        "description": "logging",
+        "isExtraImport": true,
+        "detail": "logging",
+        "documentation": {}
+    },
+    {
+        "label": "FileHandler",
+        "importPath": "logging",
+        "description": "logging",
+        "isExtraImport": true,
+        "detail": "logging",
+        "documentation": {}
+    },
+    {
+        "label": "Form",
+        "importPath": "flask_wtf",
+        "description": "flask_wtf",
+        "isExtraImport": true,
+        "detail": "flask_wtf",
+        "documentation": {}
+    },
+    {
+        "label": "Form",
+        "importPath": "flask_wtf",
+        "description": "flask_wtf",
+        "isExtraImport": true,
+        "detail": "flask_wtf",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "forms",
+        "description": "forms",
+        "isExtraImport": true,
+        "detail": "forms",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "local",
+        "importPath": "fabric.api",
+        "description": "fabric.api",
+        "isExtraImport": true,
+        "detail": "fabric.api",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "fabric.api",
+        "description": "fabric.api",
+        "isExtraImport": true,
+        "detail": "fabric.api",
+        "documentation": {}
+    },
+    {
+        "label": "abort",
+        "importPath": "fabric.api",
+        "description": "fabric.api",
+        "isExtraImport": true,
+        "detail": "fabric.api",
+        "documentation": {}
+    },
+    {
+        "label": "confirm",
+        "importPath": "fabric.contrib.console",
+        "description": "fabric.contrib.console",
+        "isExtraImport": true,
+        "detail": "fabric.contrib.console",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "StringField",
+        "importPath": "wtforms",
+        "description": "wtforms",
+        "isExtraImport": true,
+        "detail": "wtforms",
+        "documentation": {}
+    },
+    {
+        "label": "SelectField",
+        "importPath": "wtforms",
+        "description": "wtforms",
+        "isExtraImport": true,
+        "detail": "wtforms",
+        "documentation": {}
+    },
+    {
+        "label": "SelectMultipleField",
+        "importPath": "wtforms",
+        "description": "wtforms",
+        "isExtraImport": true,
+        "detail": "wtforms",
+        "documentation": {}
+    },
+    {
+        "label": "DateTimeField",
+        "importPath": "wtforms",
+        "description": "wtforms",
+        "isExtraImport": true,
+        "detail": "wtforms",
+        "documentation": {}
+    },
+    {
+        "label": "BooleanField",
+        "importPath": "wtforms",
+        "description": "wtforms",
+        "isExtraImport": true,
+        "detail": "wtforms",
+        "documentation": {}
+    },
+    {
+        "label": "DataRequired",
+        "importPath": "wtforms.validators",
+        "description": "wtforms.validators",
+        "isExtraImport": true,
+        "detail": "wtforms.validators",
+        "documentation": {}
+    },
+    {
+        "label": "AnyOf",
+        "importPath": "wtforms.validators",
+        "description": "wtforms.validators",
+        "isExtraImport": true,
+        "detail": "wtforms.validators",
+        "documentation": {}
+    },
+    {
+        "label": "URL",
+        "importPath": "wtforms.validators",
+        "description": "wtforms.validators",
+        "isExtraImport": true,
+        "detail": "wtforms.validators",
+        "documentation": {}
+    },
+    {
+        "label": "Venue",
+        "kind": 6,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "class Venue(db.Model):\n    __tablename__ = 'Venue'\n    id = db.Column(db.Integer, primary_key=True)\n    name = db.Column(db.String)\n    city = db.Column(db.String(120))\n    state = db.Column(db.String(120))\n    address = db.Column(db.String(120))\n    phone = db.Column(db.String(120))\n    image_link = db.Column(db.String(500))\n    facebook_link = db.Column(db.String(120))",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "Artist",
+        "kind": 6,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "class Artist(db.Model):\n    __tablename__ = 'Artist'\n    id = db.Column(db.Integer, primary_key=True)\n    name = db.Column(db.String)\n    city = db.Column(db.String(120))\n    state = db.Column(db.String(120))\n    phone = db.Column(db.String(120))\n    genres = db.Column(db.String(120))\n    image_link = db.Column(db.String(500))\n    facebook_link = db.Column(db.String(120))",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "format_datetime",
+        "kind": 2,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "def format_datetime(value, format='medium'):\n  date = dateutil.parser.parse(value)\n  if format == 'full':\n      format=\"EEEE MMMM, d, y 'at' h:mma\"\n  elif format == 'medium':\n      format=\"EE MM, dd, y h:mma\"\n  return babel.dates.format_datetime(date, format, locale='en')\napp.jinja_env.filters['datetime'] = format_datetime\n#----------------------------------------------------------------------------#\n# Controllers.",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "index",
+        "kind": 2,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "def index():\n  return render_template('pages/home.html')\n#  Venues\n#  ----------------------------------------------------------------\n@app.route('/venues')\ndef venues():\n  # TODO: replace with real venues data.\n  #       num_upcoming_shows should be aggregated based on number of upcoming shows per venue.\n  data=[{\n    \"city\": \"San Francisco\",",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "venues",
+        "kind": 2,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "def venues():\n  # TODO: replace with real venues data.\n  #       num_upcoming_shows should be aggregated based on number of upcoming shows per venue.\n  data=[{\n    \"city\": \"San Francisco\",\n    \"state\": \"CA\",\n    \"venues\": [{\n      \"id\": 1,\n      \"name\": \"The Musical Hop\",\n      \"num_upcoming_shows\": 0,",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "search_venues",
+        "kind": 2,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "def search_venues():\n  # TODO: implement search on venues with partial string search. Ensure it is case-insensitive.\n  # seach for Hop should return \"The Musical Hop\".\n  # search for \"Music\" should return \"The Musical Hop\" and \"Park Square Live Music & Coffee\"\n  response={\n    \"count\": 1,\n    \"data\": [{\n      \"id\": 2,\n      \"name\": \"The Dueling Pianos Bar\",\n      \"num_upcoming_shows\": 0,",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "show_venue",
+        "kind": 2,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "def show_venue(venue_id):\n  # shows the venue page with the given venue_id\n  # TODO: replace with real venue data from the venues table, using venue_id\n  data1={\n    \"id\": 1,\n    \"name\": \"The Musical Hop\",\n    \"genres\": [\"Jazz\", \"Reggae\", \"Swing\", \"Classical\", \"Folk\"],\n    \"address\": \"1015 Folsom Street\",\n    \"city\": \"San Francisco\",\n    \"state\": \"CA\",",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "create_venue_form",
+        "kind": 2,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "def create_venue_form():\n  form = VenueForm()\n  return render_template('forms/new_venue.html', form=form)\n@app.route('/venues/create', methods=['POST'])\ndef create_venue_submission():\n  # TODO: insert form data as a new Venue record in the db, instead\n  # TODO: modify data to be the data object returned from db insertion\n  # on successful db insert, flash success\n  flash('Venue ' + request.form['name'] + ' was successfully listed!')\n  # TODO: on unsuccessful db insert, flash an error instead.",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "create_venue_submission",
+        "kind": 2,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "def create_venue_submission():\n  # TODO: insert form data as a new Venue record in the db, instead\n  # TODO: modify data to be the data object returned from db insertion\n  # on successful db insert, flash success\n  flash('Venue ' + request.form['name'] + ' was successfully listed!')\n  # TODO: on unsuccessful db insert, flash an error instead.\n  # e.g., flash('An error occurred. Venue ' + data.name + ' could not be listed.')\n  # see: http://flask.pocoo.org/docs/1.0/patterns/flashing/\n  return render_template('pages/home.html')\n@app.route('/venues/<venue_id>', methods=['DELETE'])",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "delete_venue",
+        "kind": 2,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "def delete_venue(venue_id):\n  # TODO: Complete this endpoint for taking a venue_id, and using\n  # SQLAlchemy ORM to delete a record. Handle cases where the session commit could fail.\n  # BONUS CHALLENGE: Implement a button to delete a Venue on a Venue Page, have it so that\n  # clicking that button delete it from the db then redirect the user to the homepage\n  return None\n#  Artists\n#  ----------------------------------------------------------------\n@app.route('/artists')\ndef artists():",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "artists",
+        "kind": 2,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "def artists():\n  # TODO: replace with real data returned from querying the database\n  data=[{\n    \"id\": 4,\n    \"name\": \"Guns N Petals\",\n  }, {\n    \"id\": 5,\n    \"name\": \"Matt Quevedo\",\n  }, {\n    \"id\": 6,",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "search_artists",
+        "kind": 2,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "def search_artists():\n  # TODO: implement search on artists with partial string search. Ensure it is case-insensitive.\n  # seach for \"A\" should return \"Guns N Petals\", \"Matt Quevado\", and \"The Wild Sax Band\".\n  # search for \"band\" should return \"The Wild Sax Band\".\n  response={\n    \"count\": 1,\n    \"data\": [{\n      \"id\": 4,\n      \"name\": \"Guns N Petals\",\n      \"num_upcoming_shows\": 0,",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "show_artist",
+        "kind": 2,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "def show_artist(artist_id):\n  # shows the artist page with the given artist_id\n  # TODO: replace with real artist data from the artist table, using artist_id\n  data1={\n    \"id\": 4,\n    \"name\": \"Guns N Petals\",\n    \"genres\": [\"Rock n Roll\"],\n    \"city\": \"San Francisco\",\n    \"state\": \"CA\",\n    \"phone\": \"326-123-5000\",",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "edit_artist",
+        "kind": 2,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "def edit_artist(artist_id):\n  form = ArtistForm()\n  artist={\n    \"id\": 4,\n    \"name\": \"Guns N Petals\",\n    \"genres\": [\"Rock n Roll\"],\n    \"city\": \"San Francisco\",\n    \"state\": \"CA\",\n    \"phone\": \"326-123-5000\",\n    \"website\": \"https://www.gunsnpetalsband.com\",",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "edit_artist_submission",
+        "kind": 2,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "def edit_artist_submission(artist_id):\n  # TODO: take values from the form submitted, and update existing\n  # artist record with ID <artist_id> using the new attributes\n  return redirect(url_for('show_artist', artist_id=artist_id))\n@app.route('/venues/<int:venue_id>/edit', methods=['GET'])\ndef edit_venue(venue_id):\n  form = VenueForm()\n  venue={\n    \"id\": 1,\n    \"name\": \"The Musical Hop\",",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "edit_venue",
+        "kind": 2,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "def edit_venue(venue_id):\n  form = VenueForm()\n  venue={\n    \"id\": 1,\n    \"name\": \"The Musical Hop\",\n    \"genres\": [\"Jazz\", \"Reggae\", \"Swing\", \"Classical\", \"Folk\"],\n    \"address\": \"1015 Folsom Street\",\n    \"city\": \"San Francisco\",\n    \"state\": \"CA\",\n    \"phone\": \"123-123-1234\",",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "edit_venue_submission",
+        "kind": 2,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "def edit_venue_submission(venue_id):\n  # TODO: take values from the form submitted, and update existing\n  # venue record with ID <venue_id> using the new attributes\n  return redirect(url_for('show_venue', venue_id=venue_id))\n#  Create Artist\n#  ----------------------------------------------------------------\n@app.route('/artists/create', methods=['GET'])\ndef create_artist_form():\n  form = ArtistForm()\n  return render_template('forms/new_artist.html', form=form)",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "create_artist_form",
+        "kind": 2,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "def create_artist_form():\n  form = ArtistForm()\n  return render_template('forms/new_artist.html', form=form)\n@app.route('/artists/create', methods=['POST'])\ndef create_artist_submission():\n  # called upon submitting the new artist listing form\n  # TODO: insert form data as a new Venue record in the db, instead\n  # TODO: modify data to be the data object returned from db insertion\n  # on successful db insert, flash success\n  flash('Artist ' + request.form['name'] + ' was successfully listed!')",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "create_artist_submission",
+        "kind": 2,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "def create_artist_submission():\n  # called upon submitting the new artist listing form\n  # TODO: insert form data as a new Venue record in the db, instead\n  # TODO: modify data to be the data object returned from db insertion\n  # on successful db insert, flash success\n  flash('Artist ' + request.form['name'] + ' was successfully listed!')\n  # TODO: on unsuccessful db insert, flash an error instead.\n  # e.g., flash('An error occurred. Artist ' + data.name + ' could not be listed.')\n  return render_template('pages/home.html')\n#  Shows",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "shows",
+        "kind": 2,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "def shows():\n  # displays list of shows at /shows\n  # TODO: replace with real venues data.\n  data=[{\n    \"venue_id\": 1,\n    \"venue_name\": \"The Musical Hop\",\n    \"artist_id\": 4,\n    \"artist_name\": \"Guns N Petals\",\n    \"artist_image_link\": \"https://images.unsplash.com/photo-1549213783-8284d0336c4f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=300&q=80\",\n    \"start_time\": \"2019-05-21T21:30:00.000Z\"",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "create_shows",
+        "kind": 2,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "def create_shows():\n  # renders form. do not touch.\n  form = ShowForm()\n  return render_template('forms/new_show.html', form=form)\n@app.route('/shows/create', methods=['POST'])\ndef create_show_submission():\n  # called to create new shows in the db, upon submitting new show listing form\n  # TODO: insert form data as a new Show record in the db, instead\n  # on successful db insert, flash success\n  flash('Show was successfully listed!')",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "create_show_submission",
+        "kind": 2,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "def create_show_submission():\n  # called to create new shows in the db, upon submitting new show listing form\n  # TODO: insert form data as a new Show record in the db, instead\n  # on successful db insert, flash success\n  flash('Show was successfully listed!')\n  # TODO: on unsuccessful db insert, flash an error instead.\n  # e.g., flash('An error occurred. Show could not be listed.')\n  # see: http://flask.pocoo.org/docs/1.0/patterns/flashing/\n  return render_template('pages/home.html')\n@app.errorhandler(404)",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "not_found_error",
+        "kind": 2,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "def not_found_error(error):\n    return render_template('errors/404.html'), 404\n@app.errorhandler(500)\ndef server_error(error):\n    return render_template('errors/500.html'), 500\nif not app.debug:\n    file_handler = FileHandler('error.log')\n    file_handler.setFormatter(\n        Formatter('%(asctime)s %(levelname)s: %(message)s [in %(pathname)s:%(lineno)d]')\n    )",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "server_error",
+        "kind": 2,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "def server_error(error):\n    return render_template('errors/500.html'), 500\nif not app.debug:\n    file_handler = FileHandler('error.log')\n    file_handler.setFormatter(\n        Formatter('%(asctime)s %(levelname)s: %(message)s [in %(pathname)s:%(lineno)d]')\n    )\n    app.logger.setLevel(logging.INFO)\n    file_handler.setLevel(logging.INFO)\n    app.logger.addHandler(file_handler)",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "kind": 5,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "app = Flask(__name__)\nmoment = Moment(app)\napp.config.from_object('config')\ndb = SQLAlchemy(app)\n# TODO: connect to a local postgresql database\n#----------------------------------------------------------------------------#\n# Models.\n#----------------------------------------------------------------------------#\nclass Venue(db.Model):\n    __tablename__ = 'Venue'",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "moment",
+        "kind": 5,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "moment = Moment(app)\napp.config.from_object('config')\ndb = SQLAlchemy(app)\n# TODO: connect to a local postgresql database\n#----------------------------------------------------------------------------#\n# Models.\n#----------------------------------------------------------------------------#\nclass Venue(db.Model):\n    __tablename__ = 'Venue'\n    id = db.Column(db.Integer, primary_key=True)",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "db",
+        "kind": 5,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "db = SQLAlchemy(app)\n# TODO: connect to a local postgresql database\n#----------------------------------------------------------------------------#\n# Models.\n#----------------------------------------------------------------------------#\nclass Venue(db.Model):\n    __tablename__ = 'Venue'\n    id = db.Column(db.Integer, primary_key=True)\n    name = db.Column(db.String)\n    city = db.Column(db.String(120))",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "app.jinja_env.filters['datetime']",
+        "kind": 5,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "app.jinja_env.filters['datetime'] = format_datetime\n#----------------------------------------------------------------------------#\n# Controllers.\n#----------------------------------------------------------------------------#\n@app.route('/')\ndef index():\n  return render_template('pages/home.html')\n#  Venues\n#  ----------------------------------------------------------------\n@app.route('/venues')",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "SECRET_KEY",
+        "kind": 5,
+        "importPath": "config",
+        "description": "config",
+        "peekOfCode": "SECRET_KEY = os.urandom(32)\n# Grabs the folder where the script runs.\nbasedir = os.path.abspath(os.path.dirname(__file__))\n# Enable debug mode.\nDEBUG = True\n# Connect to the database\n# TODO IMPLEMENT DATABASE URL\nSQLALCHEMY_DATABASE_URI = 'postgresql://postgres:abc123@localhost:5432/fyyur'",
+        "detail": "config",
+        "documentation": {}
+    },
+    {
+        "label": "basedir",
+        "kind": 5,
+        "importPath": "config",
+        "description": "config",
+        "peekOfCode": "basedir = os.path.abspath(os.path.dirname(__file__))\n# Enable debug mode.\nDEBUG = True\n# Connect to the database\n# TODO IMPLEMENT DATABASE URL\nSQLALCHEMY_DATABASE_URI = 'postgresql://postgres:abc123@localhost:5432/fyyur'",
+        "detail": "config",
+        "documentation": {}
+    },
+    {
+        "label": "DEBUG",
+        "kind": 5,
+        "importPath": "config",
+        "description": "config",
+        "peekOfCode": "DEBUG = True\n# Connect to the database\n# TODO IMPLEMENT DATABASE URL\nSQLALCHEMY_DATABASE_URI = 'postgresql://postgres:abc123@localhost:5432/fyyur'",
+        "detail": "config",
+        "documentation": {}
+    },
+    {
+        "label": "SQLALCHEMY_DATABASE_URI",
+        "kind": 5,
+        "importPath": "config",
+        "description": "config",
+        "peekOfCode": "SQLALCHEMY_DATABASE_URI = 'postgresql://postgres:abc123@localhost:5432/fyyur'",
+        "detail": "config",
+        "documentation": {}
+    },
+    {
+        "label": "test",
+        "kind": 2,
+        "importPath": "fabfile",
+        "description": "fabfile",
+        "peekOfCode": "def test():\n    with settings(warn_only=True):\n        result = local(\n            \"python test_tasks.py -v && python test_users.py -v\", capture=True\n        )\n    if result.failed and not confirm(\"Tests failed. Continue?\"):\n        abort(\"Aborted at user request.\")\ndef commit():\n    message = raw_input(\"Enter a git commit message: \")\n    local(\"git add . && git commit -am '{}'\".format(message))",
+        "detail": "fabfile",
+        "documentation": {}
+    },
+    {
+        "label": "commit",
+        "kind": 2,
+        "importPath": "fabfile",
+        "description": "fabfile",
+        "peekOfCode": "def commit():\n    message = raw_input(\"Enter a git commit message: \")\n    local(\"git add . && git commit -am '{}'\".format(message))\ndef push():\n    local(\"git push origin master\")\ndef prepare():\n    test()\n    commit()\n    push()\n# deploy to heroku",
+        "detail": "fabfile",
+        "documentation": {}
+    },
+    {
+        "label": "push",
+        "kind": 2,
+        "importPath": "fabfile",
+        "description": "fabfile",
+        "peekOfCode": "def push():\n    local(\"git push origin master\")\ndef prepare():\n    test()\n    commit()\n    push()\n# deploy to heroku\ndef pull():\n    local(\"git pull origin master\")\ndef heroku():",
+        "detail": "fabfile",
+        "documentation": {}
+    },
+    {
+        "label": "prepare",
+        "kind": 2,
+        "importPath": "fabfile",
+        "description": "fabfile",
+        "peekOfCode": "def prepare():\n    test()\n    commit()\n    push()\n# deploy to heroku\ndef pull():\n    local(\"git pull origin master\")\ndef heroku():\n    local(\"git push heroku master\")\ndef heroku_test():",
+        "detail": "fabfile",
+        "documentation": {}
+    },
+    {
+        "label": "pull",
+        "kind": 2,
+        "importPath": "fabfile",
+        "description": "fabfile",
+        "peekOfCode": "def pull():\n    local(\"git pull origin master\")\ndef heroku():\n    local(\"git push heroku master\")\ndef heroku_test():\n    local(\n        \"heroku run python test_tasks.py -v && heroku run python test_users.py -v\"\n    )\ndef deploy():\n    pull()",
+        "detail": "fabfile",
+        "documentation": {}
+    },
+    {
+        "label": "heroku",
+        "kind": 2,
+        "importPath": "fabfile",
+        "description": "fabfile",
+        "peekOfCode": "def heroku():\n    local(\"git push heroku master\")\ndef heroku_test():\n    local(\n        \"heroku run python test_tasks.py -v && heroku run python test_users.py -v\"\n    )\ndef deploy():\n    pull()\n    test()\n    commit()",
+        "detail": "fabfile",
+        "documentation": {}
+    },
+    {
+        "label": "heroku_test",
+        "kind": 2,
+        "importPath": "fabfile",
+        "description": "fabfile",
+        "peekOfCode": "def heroku_test():\n    local(\n        \"heroku run python test_tasks.py -v && heroku run python test_users.py -v\"\n    )\ndef deploy():\n    pull()\n    test()\n    commit()\n    heroku()\n    heroku_test()",
+        "detail": "fabfile",
+        "documentation": {}
+    },
+    {
+        "label": "deploy",
+        "kind": 2,
+        "importPath": "fabfile",
+        "description": "fabfile",
+        "peekOfCode": "def deploy():\n    pull()\n    test()\n    commit()\n    heroku()\n    heroku_test()\n# rollback\ndef rollback():\n    local(\"heroku rollback\")",
+        "detail": "fabfile",
+        "documentation": {}
+    },
+    {
+        "label": "rollback",
+        "kind": 2,
+        "importPath": "fabfile",
+        "description": "fabfile",
+        "peekOfCode": "def rollback():\n    local(\"heroku rollback\")",
+        "detail": "fabfile",
+        "documentation": {}
+    },
+    {
+        "label": "ShowForm",
+        "kind": 6,
+        "importPath": "forms",
+        "description": "forms",
+        "peekOfCode": "class ShowForm(Form):\n    artist_id = StringField(\n        'artist_id'\n    )\n    venue_id = StringField(\n        'venue_id'\n    )\n    start_time = DateTimeField(\n        'start_time',\n        validators=[DataRequired()],",
+        "detail": "forms",
+        "documentation": {}
+    },
+    {
+        "label": "VenueForm",
+        "kind": 6,
+        "importPath": "forms",
+        "description": "forms",
+        "peekOfCode": "class VenueForm(Form):\n    name = StringField(\n        'name', validators=[DataRequired()]\n    )\n    city = StringField(\n        'city', validators=[DataRequired()]\n    )\n    state = SelectField(\n        'state', validators=[DataRequired()],\n        choices=[",
+        "detail": "forms",
+        "documentation": {}
+    },
+    {
+        "label": "ArtistForm",
+        "kind": 6,
+        "importPath": "forms",
+        "description": "forms",
+        "peekOfCode": "class ArtistForm(Form):\n    name = StringField(\n        'name', validators=[DataRequired()]\n    )\n    city = StringField(\n        'city', validators=[DataRequired()]\n    )\n    state = SelectField(\n        'state', validators=[DataRequired()],\n        choices=[",
+        "detail": "forms",
+        "documentation": {}
+    }
+]
