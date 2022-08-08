@@ -9,12 +9,28 @@
         "documentation": {}
     },
     {
-        "label": "dateutil.parser",
+        "label": "logging",
         "kind": 6,
         "isExtraImport": true,
-        "importPath": "dateutil.parser",
-        "description": "dateutil.parser",
-        "detail": "dateutil.parser",
+        "importPath": "logging",
+        "description": "logging",
+        "detail": "logging",
+        "documentation": {}
+    },
+    {
+        "label": "FileHandler",
+        "importPath": "logging",
+        "description": "logging",
+        "isExtraImport": true,
+        "detail": "logging",
+        "documentation": {}
+    },
+    {
+        "label": "Formatter",
+        "importPath": "logging",
+        "description": "logging",
+        "isExtraImport": true,
+        "detail": "logging",
         "documentation": {}
     },
     {
@@ -27,23 +43,16 @@
         "documentation": {}
     },
     {
+        "label": "dateutil.parser",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "dateutil.parser",
+        "description": "dateutil.parser",
+        "detail": "dateutil.parser",
+        "documentation": {}
+    },
+    {
         "label": "Flask",
-        "importPath": "flask",
-        "description": "flask",
-        "isExtraImport": true,
-        "detail": "flask",
-        "documentation": {}
-    },
-    {
-        "label": "render_template",
-        "importPath": "flask",
-        "description": "flask",
-        "isExtraImport": true,
-        "detail": "flask",
-        "documentation": {}
-    },
-    {
-        "label": "request",
         "importPath": "flask",
         "description": "flask",
         "isExtraImport": true,
@@ -75,6 +84,22 @@
         "documentation": {}
     },
     {
+        "label": "render_template",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "request",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
         "label": "url_for",
         "importPath": "flask",
         "description": "flask",
@@ -96,31 +121,6 @@
         "description": "flask_sqlalchemy",
         "isExtraImport": true,
         "detail": "flask_sqlalchemy",
-        "documentation": {}
-    },
-    {
-        "label": "logging",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "logging",
-        "description": "logging",
-        "detail": "logging",
-        "documentation": {}
-    },
-    {
-        "label": "Formatter",
-        "importPath": "logging",
-        "description": "logging",
-        "isExtraImport": true,
-        "detail": "logging",
-        "documentation": {}
-    },
-    {
-        "label": "FileHandler",
-        "importPath": "logging",
-        "description": "logging",
-        "isExtraImport": true,
-        "detail": "logging",
         "documentation": {}
     },
     {
