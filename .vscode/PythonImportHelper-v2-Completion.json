@@ -1,49 +1,80 @@
 [
     {
-        "label": "json",
-        "kind": 6,
+        "label": "op",
+        "importPath": "alembic",
+        "description": "alembic",
         "isExtraImport": true,
-        "importPath": "json",
-        "description": "json",
-        "detail": "json",
+        "detail": "alembic",
         "documentation": {}
     },
     {
-        "label": "dateutil.parser",
-        "kind": 6,
+        "label": "context",
+        "importPath": "alembic",
+        "description": "alembic",
         "isExtraImport": true,
-        "importPath": "dateutil.parser",
-        "description": "dateutil.parser",
-        "detail": "dateutil.parser",
+        "detail": "alembic",
         "documentation": {}
     },
     {
-        "label": "babel",
+        "label": "sqlalchemy",
         "kind": 6,
         "isExtraImport": true,
-        "importPath": "babel",
-        "description": "babel",
-        "detail": "babel",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "with_statement",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
+        "label": "logging",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "logging",
+        "description": "logging",
+        "detail": "logging",
+        "documentation": {}
+    },
+    {
+        "label": "FileHandler",
+        "importPath": "logging",
+        "description": "logging",
+        "isExtraImport": true,
+        "detail": "logging",
+        "documentation": {}
+    },
+    {
+        "label": "Formatter",
+        "importPath": "logging",
+        "description": "logging",
+        "isExtraImport": true,
+        "detail": "logging",
+        "documentation": {}
+    },
+    {
+        "label": "fileConfig",
+        "importPath": "logging.config",
+        "description": "logging.config",
+        "isExtraImport": true,
+        "detail": "logging.config",
+        "documentation": {}
+    },
+    {
+        "label": "current_app",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
         "documentation": {}
     },
     {
         "label": "Flask",
-        "importPath": "flask",
-        "description": "flask",
-        "isExtraImport": true,
-        "detail": "flask",
-        "documentation": {}
-    },
-    {
-        "label": "render_template",
-        "importPath": "flask",
-        "description": "flask",
-        "isExtraImport": true,
-        "detail": "flask",
-        "documentation": {}
-    },
-    {
-        "label": "request",
         "importPath": "flask",
         "description": "flask",
         "isExtraImport": true,
@@ -75,11 +106,62 @@
         "documentation": {}
     },
     {
+        "label": "render_template",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "request",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
         "label": "url_for",
         "importPath": "flask",
         "description": "flask",
         "isExtraImport": true,
         "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "json",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "json",
+        "description": "json",
+        "detail": "json",
+        "documentation": {}
+    },
+    {
+        "label": "babel",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "babel",
+        "description": "babel",
+        "detail": "babel",
+        "documentation": {}
+    },
+    {
+        "label": "dateutil.parser",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "dateutil.parser",
+        "description": "dateutil.parser",
+        "detail": "dateutil.parser",
+        "documentation": {}
+    },
+    {
+        "label": "Migrate",
+        "importPath": "flask_migrate",
+        "description": "flask_migrate",
+        "isExtraImport": true,
+        "detail": "flask_migrate",
         "documentation": {}
     },
     {
@@ -96,31 +178,6 @@
         "description": "flask_sqlalchemy",
         "isExtraImport": true,
         "detail": "flask_sqlalchemy",
-        "documentation": {}
-    },
-    {
-        "label": "logging",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "logging",
-        "description": "logging",
-        "detail": "logging",
-        "documentation": {}
-    },
-    {
-        "label": "Formatter",
-        "importPath": "logging",
-        "description": "logging",
-        "isExtraImport": true,
-        "detail": "logging",
-        "documentation": {}
-    },
-    {
-        "label": "FileHandler",
-        "importPath": "logging",
-        "description": "logging",
-        "isExtraImport": true,
-        "detail": "logging",
         "documentation": {}
     },
     {
@@ -258,6 +315,105 @@
         "description": "wtforms.validators",
         "isExtraImport": true,
         "detail": "wtforms.validators",
+        "documentation": {}
+    },
+    {
+        "label": "upgrade",
+        "kind": 2,
+        "importPath": "migrations.versions.a67b2c32fd2a_",
+        "description": "migrations.versions.a67b2c32fd2a_",
+        "peekOfCode": "def upgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.create_table('Artist',\n    sa.Column('id', sa.Integer(), nullable=False),\n    sa.Column('name', sa.String(), nullable=True),\n    sa.Column('city', sa.String(length=120), nullable=True),\n    sa.Column('state', sa.String(length=120), nullable=True),\n    sa.Column('phone', sa.String(length=120), nullable=True),\n    sa.Column('genres', sa.String(length=120), nullable=True),\n    sa.Column('image_link', sa.String(length=500), nullable=True),",
+        "detail": "migrations.versions.a67b2c32fd2a_",
+        "documentation": {}
+    },
+    {
+        "label": "downgrade",
+        "kind": 2,
+        "importPath": "migrations.versions.a67b2c32fd2a_",
+        "description": "migrations.versions.a67b2c32fd2a_",
+        "peekOfCode": "def downgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.drop_table('Venue')\n    op.drop_table('Artist')\n    # ### end Alembic commands ###",
+        "detail": "migrations.versions.a67b2c32fd2a_",
+        "documentation": {}
+    },
+    {
+        "label": "revision",
+        "kind": 5,
+        "importPath": "migrations.versions.a67b2c32fd2a_",
+        "description": "migrations.versions.a67b2c32fd2a_",
+        "peekOfCode": "revision = 'a67b2c32fd2a'\ndown_revision = None\nbranch_labels = None\ndepends_on = None\ndef upgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.create_table('Artist',\n    sa.Column('id', sa.Integer(), nullable=False),\n    sa.Column('name', sa.String(), nullable=True),\n    sa.Column('city', sa.String(length=120), nullable=True),",
+        "detail": "migrations.versions.a67b2c32fd2a_",
+        "documentation": {}
+    },
+    {
+        "label": "down_revision",
+        "kind": 5,
+        "importPath": "migrations.versions.a67b2c32fd2a_",
+        "description": "migrations.versions.a67b2c32fd2a_",
+        "peekOfCode": "down_revision = None\nbranch_labels = None\ndepends_on = None\ndef upgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.create_table('Artist',\n    sa.Column('id', sa.Integer(), nullable=False),\n    sa.Column('name', sa.String(), nullable=True),\n    sa.Column('city', sa.String(length=120), nullable=True),\n    sa.Column('state', sa.String(length=120), nullable=True),",
+        "detail": "migrations.versions.a67b2c32fd2a_",
+        "documentation": {}
+    },
+    {
+        "label": "branch_labels",
+        "kind": 5,
+        "importPath": "migrations.versions.a67b2c32fd2a_",
+        "description": "migrations.versions.a67b2c32fd2a_",
+        "peekOfCode": "branch_labels = None\ndepends_on = None\ndef upgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.create_table('Artist',\n    sa.Column('id', sa.Integer(), nullable=False),\n    sa.Column('name', sa.String(), nullable=True),\n    sa.Column('city', sa.String(length=120), nullable=True),\n    sa.Column('state', sa.String(length=120), nullable=True),\n    sa.Column('phone', sa.String(length=120), nullable=True),",
+        "detail": "migrations.versions.a67b2c32fd2a_",
+        "documentation": {}
+    },
+    {
+        "label": "depends_on",
+        "kind": 5,
+        "importPath": "migrations.versions.a67b2c32fd2a_",
+        "description": "migrations.versions.a67b2c32fd2a_",
+        "peekOfCode": "depends_on = None\ndef upgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.create_table('Artist',\n    sa.Column('id', sa.Integer(), nullable=False),\n    sa.Column('name', sa.String(), nullable=True),\n    sa.Column('city', sa.String(length=120), nullable=True),\n    sa.Column('state', sa.String(length=120), nullable=True),\n    sa.Column('phone', sa.String(length=120), nullable=True),\n    sa.Column('genres', sa.String(length=120), nullable=True),",
+        "detail": "migrations.versions.a67b2c32fd2a_",
+        "documentation": {}
+    },
+    {
+        "label": "run_migrations_offline",
+        "kind": 2,
+        "importPath": "migrations.env",
+        "description": "migrations.env",
+        "peekOfCode": "def run_migrations_offline():\n    \"\"\"Run migrations in 'offline' mode.\n    This configures the context with just a URL\n    and not an Engine, though an Engine is acceptable\n    here as well.  By skipping the Engine creation\n    we don't even need a DBAPI to be available.\n    Calls to context.execute() here emit the given string to the\n    script output.\n    \"\"\"\n    url = config.get_main_option(\"sqlalchemy.url\")",
+        "detail": "migrations.env",
+        "documentation": {}
+    },
+    {
+        "label": "run_migrations_online",
+        "kind": 2,
+        "importPath": "migrations.env",
+        "description": "migrations.env",
+        "peekOfCode": "def run_migrations_online():\n    \"\"\"Run migrations in 'online' mode.\n    In this scenario we need to create an Engine\n    and associate a connection with the context.\n    \"\"\"\n    # this callback is used to prevent an auto-migration from being generated\n    # when there are no changes to the schema\n    # reference: http://alembic.zzzcomputing.com/en/latest/cookbook.html\n    def process_revision_directives(context, revision, directives):\n        if getattr(config.cmd_opts, 'autogenerate', False):",
+        "detail": "migrations.env",
+        "documentation": {}
+    },
+    {
+        "label": "config",
+        "kind": 5,
+        "importPath": "migrations.env",
+        "description": "migrations.env",
+        "peekOfCode": "config = context.config\n# Interpret the config file for Python logging.\n# This line sets up loggers basically.\nfileConfig(config.config_file_name)\nlogger = logging.getLogger('alembic.env')\n# add your model's MetaData object here\n# for 'autogenerate' support\n# from myapp import mymodel\n# target_metadata = mymodel.Base.metadata\nconfig.set_main_option(",
+        "detail": "migrations.env",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "kind": 5,
+        "importPath": "migrations.env",
+        "description": "migrations.env",
+        "peekOfCode": "logger = logging.getLogger('alembic.env')\n# add your model's MetaData object here\n# for 'autogenerate' support\n# from myapp import mymodel\n# target_metadata = mymodel.Base.metadata\nconfig.set_main_option(\n    'sqlalchemy.url',\n    str(current_app.extensions['migrate'].db.get_engine().url).replace(\n        '%', '%%'))\ntarget_metadata = current_app.extensions['migrate'].db.metadata",
+        "detail": "migrations.env",
+        "documentation": {}
+    },
+    {
+        "label": "target_metadata",
+        "kind": 5,
+        "importPath": "migrations.env",
+        "description": "migrations.env",
+        "peekOfCode": "target_metadata = current_app.extensions['migrate'].db.metadata\n# other values from the config, defined by the needs of env.py,\n# can be acquired:\n# my_important_option = config.get_main_option(\"my_important_option\")\n# ... etc.\ndef run_migrations_offline():\n    \"\"\"Run migrations in 'offline' mode.\n    This configures the context with just a URL\n    and not an Engine, though an Engine is acceptable\n    here as well.  By skipping the Engine creation",
+        "detail": "migrations.env",
         "documentation": {}
     },
     {
@@ -481,7 +637,7 @@
         "kind": 5,
         "importPath": "app",
         "description": "app",
-        "peekOfCode": "app = Flask(__name__)\nmoment = Moment(app)\napp.config.from_object('config')\ndb = SQLAlchemy(app)\n# TODO: connect to a local postgresql database\n#----------------------------------------------------------------------------#\n# Models.\n#----------------------------------------------------------------------------#\nclass Venue(db.Model):\n    __tablename__ = 'Venue'",
+        "peekOfCode": "app = Flask(__name__)\nmoment = Moment(app)\napp.config.from_object('config')\ndb = SQLAlchemy(app)\n# For Miagration\nmigration=Migrate(app,db)\n# TODO: connect to a local postgresql database\n#----------------------------------------------------------------------------#\n# Models.\n#----------------------------------------------------------------------------#",
         "detail": "app",
         "documentation": {}
     },
@@ -490,7 +646,7 @@
         "kind": 5,
         "importPath": "app",
         "description": "app",
-        "peekOfCode": "moment = Moment(app)\napp.config.from_object('config')\ndb = SQLAlchemy(app)\n# TODO: connect to a local postgresql database\n#----------------------------------------------------------------------------#\n# Models.\n#----------------------------------------------------------------------------#\nclass Venue(db.Model):\n    __tablename__ = 'Venue'\n    id = db.Column(db.Integer, primary_key=True)",
+        "peekOfCode": "moment = Moment(app)\napp.config.from_object('config')\ndb = SQLAlchemy(app)\n# For Miagration\nmigration=Migrate(app,db)\n# TODO: connect to a local postgresql database\n#----------------------------------------------------------------------------#\n# Models.\n#----------------------------------------------------------------------------#\nclass Venue(db.Model):",
         "detail": "app",
         "documentation": {}
     },
@@ -499,7 +655,7 @@
         "kind": 5,
         "importPath": "app",
         "description": "app",
-        "peekOfCode": "db = SQLAlchemy(app)\n# TODO: connect to a local postgresql database\n#----------------------------------------------------------------------------#\n# Models.\n#----------------------------------------------------------------------------#\nclass Venue(db.Model):\n    __tablename__ = 'Venue'\n    id = db.Column(db.Integer, primary_key=True)\n    name = db.Column(db.String)\n    city = db.Column(db.String(120))",
+        "peekOfCode": "db = SQLAlchemy(app)\n# For Miagration\nmigration=Migrate(app,db)\n# TODO: connect to a local postgresql database\n#----------------------------------------------------------------------------#\n# Models.\n#----------------------------------------------------------------------------#\nclass Venue(db.Model):\n    __tablename__ = 'Venue'\n    id = db.Column(db.Integer, primary_key=True)",
         "detail": "app",
         "documentation": {}
     },
