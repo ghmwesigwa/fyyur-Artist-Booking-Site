@@ -21,6 +21,12 @@ class Venue(db.Model):
     phone = db.Column(db.String(120))
     image_link = db.Column(db.String(500))
     facebook_link = db.Column(db.String(120))
+    shows = db.relationship('Show', backref='Venue', lazy=True)
+    artist = db.relationship('Artist', secondary='shows')
+    genres = db.Column(db.String())
+    website = db.Column(db.String())
+    seeking_description = db.Column(db.String())
+    seeking_talent = db.Column(db.Boolean, default=False, nullable=False)
 
 
     # TODO: implement any missing fields, as a database migration using Flask-Migrate
@@ -36,8 +42,45 @@ class Artist(db.Model):
     genres = db.Column(db.String(120))
     image_link = db.Column(db.String(500))
     facebook_link = db.Column(db.String(120))
+    website = db.Column(db.String(120))
+    seeking_venue = db.Column(db.Boolean)
+    seeking_description = db.Column(db.String(500))
+    image_link = db.column(db.String(500))
+
+    shows = db.relationship('Show', backref='Artist', lazy=True)
+    venue = db.relationship('Venue', secondary='shows')
+
 
     # TODO: implement any missing fields, as a database migration using Flask-Migrate
+def __init__(self, name, city, genres, image_link, facebook_link, website, state, phone, seeking_venue=False, seeking_description=""):
+    self.name = name
+    self.city = city
+    self.genres = genres
+    self.image_link = image_link
+    self.facebook_link = facebook_link
+    self.website = website
+    self.state = state
+    self.phone = phone
+    self.seeking_venue = seeking_venue
+    self.seeking_description = seeking_description
+
+def set(self):
+    db.session.add(self)
+    db.sesion.commit()
+def details(self):
+    return {
+        'id': self.id,
+        'name': self.name,
+        'genres': self.genres,
+        'city': self.city,
+        'state': self.state,
+        'phone': self.phone,
+        'website': self.website,
+        'facebook_link': self.facebook_link,
+        'seeking_venue': self.seeking_venue,
+        'seeking_description': self.seeking_description,
+        'image_link': self.image_link,
+        }
 
 # TODO Implement Show and Artist models, and complete all model relationships and properties, as a database migration.
 class Show(db.Model):
@@ -66,7 +109,7 @@ def getShowDetails(self):
         'start_time': self.start_time
     }
 
-def venue_details(self):
+def getVenueDetails(self):
     return {
         'venue_id': self.venue_id,
         'venue_name': self.Venue.name,

@@ -1,0 +1,6 @@
+
+.env
+migrations/
+node_modules/
+secrets.env
+package*.json
