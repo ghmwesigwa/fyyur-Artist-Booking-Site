@@ -25,6 +25,22 @@
         "documentation": {}
     },
     {
+        "label": "func",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "func",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
         "label": "with_statement",
         "importPath": "__future__",
         "description": "__future__",
@@ -82,7 +98,7 @@
         "documentation": {}
     },
     {
-        "label": "Response",
+        "label": "abort",
         "importPath": "flask",
         "description": "flask",
         "isExtraImport": true,
@@ -130,21 +146,77 @@
         "documentation": {}
     },
     {
-        "label": "json",
-        "kind": 6,
+        "label": "flash",
+        "importPath": "flask",
+        "description": "flask",
         "isExtraImport": true,
-        "importPath": "json",
-        "description": "json",
-        "detail": "json",
+        "detail": "flask",
         "documentation": {}
     },
     {
-        "label": "babel",
+        "label": "request",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "SQLAlchemy",
+        "importPath": "flask_sqlalchemy",
+        "description": "flask_sqlalchemy",
+        "isExtraImport": true,
+        "detail": "flask_sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "os",
         "kind": 6,
         "isExtraImport": true,
-        "importPath": "babel",
-        "description": "babel",
-        "detail": "babel",
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
         "documentation": {}
     },
     {
@@ -154,6 +226,14 @@
         "importPath": "dateutil.parser",
         "description": "dateutil.parser",
         "detail": "dateutil.parser",
+        "documentation": {}
+    },
+    {
+        "label": "dates",
+        "importPath": "babel",
+        "description": "babel",
+        "isExtraImport": true,
+        "detail": "babel",
         "documentation": {}
     },
     {
@@ -173,27 +253,35 @@
         "documentation": {}
     },
     {
-        "label": "SQLAlchemy",
-        "importPath": "flask_sqlalchemy",
-        "description": "flask_sqlalchemy",
+        "label": "SQLALCHEMY_DATABASE_URI",
+        "importPath": "config",
+        "description": "config",
         "isExtraImport": true,
-        "detail": "flask_sqlalchemy",
+        "detail": "config",
         "documentation": {}
     },
     {
-        "label": "Form",
-        "importPath": "flask_wtf",
-        "description": "flask_wtf",
+        "label": "ArtistForm",
+        "importPath": "forms",
+        "description": "forms",
         "isExtraImport": true,
-        "detail": "flask_wtf",
+        "detail": "forms",
         "documentation": {}
     },
     {
-        "label": "Form",
-        "importPath": "flask_wtf",
-        "description": "flask_wtf",
+        "label": "ShowForm",
+        "importPath": "forms",
+        "description": "forms",
         "isExtraImport": true,
-        "detail": "flask_wtf",
+        "detail": "forms",
+        "documentation": {}
+    },
+    {
+        "label": "VenueForm",
+        "importPath": "forms",
+        "description": "forms",
+        "isExtraImport": true,
+        "detail": "forms",
         "documentation": {}
     },
     {
@@ -205,12 +293,35 @@
         "documentation": {}
     },
     {
-        "label": "os",
-        "kind": 6,
+        "label": "getUtility",
+        "importPath": "get_utility",
+        "description": "get_utility",
         "isExtraImport": true,
-        "importPath": "os",
-        "description": "os",
-        "detail": "os",
+        "detail": "get_utility",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "models.models",
+        "description": "models.models",
+        "isExtraImport": true,
+        "detail": "models.models",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "models.models",
+        "description": "models.models",
+        "isExtraImport": true,
+        "detail": "models.models",
+        "documentation": {}
+    },
+    {
+        "label": "abort",
+        "importPath": "fabric.api",
+        "description": "fabric.api",
+        "isExtraImport": true,
+        "detail": "fabric.api",
         "documentation": {}
     },
     {
@@ -230,14 +341,6 @@
         "documentation": {}
     },
     {
-        "label": "abort",
-        "importPath": "fabric.api",
-        "description": "fabric.api",
-        "isExtraImport": true,
-        "detail": "fabric.api",
-        "documentation": {}
-    },
-    {
         "label": "confirm",
         "importPath": "fabric.contrib.console",
         "description": "fabric.contrib.console",
@@ -246,15 +349,23 @@
         "documentation": {}
     },
     {
-        "label": "datetime",
-        "importPath": "datetime",
-        "description": "datetime",
+        "label": "FlaskForm",
+        "importPath": "flask_wtf",
+        "description": "flask_wtf",
         "isExtraImport": true,
-        "detail": "datetime",
+        "detail": "flask_wtf",
         "documentation": {}
     },
     {
-        "label": "StringField",
+        "label": "BooleanField",
+        "importPath": "wtforms",
+        "description": "wtforms",
+        "isExtraImport": true,
+        "detail": "wtforms",
+        "documentation": {}
+    },
+    {
+        "label": "DateTimeField",
         "importPath": "wtforms",
         "description": "wtforms",
         "isExtraImport": true,
@@ -278,7 +389,7 @@
         "documentation": {}
     },
     {
-        "label": "DateTimeField",
+        "label": "StringField",
         "importPath": "wtforms",
         "description": "wtforms",
         "isExtraImport": true,
@@ -286,15 +397,7 @@
         "documentation": {}
     },
     {
-        "label": "BooleanField",
-        "importPath": "wtforms",
-        "description": "wtforms",
-        "isExtraImport": true,
-        "detail": "wtforms",
-        "documentation": {}
-    },
-    {
-        "label": "DataRequired",
+        "label": "URL",
         "importPath": "wtforms.validators",
         "description": "wtforms.validators",
         "isExtraImport": true,
@@ -310,7 +413,7 @@
         "documentation": {}
     },
     {
-        "label": "URL",
+        "label": "DataRequired",
         "importPath": "wtforms.validators",
         "description": "wtforms.validators",
         "isExtraImport": true,
@@ -320,55 +423,55 @@
     {
         "label": "upgrade",
         "kind": 2,
-        "importPath": "migrations.versions.a67b2c32fd2a_",
-        "description": "migrations.versions.a67b2c32fd2a_",
-        "peekOfCode": "def upgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.create_table('Artist',\n    sa.Column('id', sa.Integer(), nullable=False),\n    sa.Column('name', sa.String(), nullable=True),\n    sa.Column('city', sa.String(length=120), nullable=True),\n    sa.Column('state', sa.String(length=120), nullable=True),\n    sa.Column('phone', sa.String(length=120), nullable=True),\n    sa.Column('genres', sa.String(length=120), nullable=True),\n    sa.Column('image_link', sa.String(length=500), nullable=True),",
-        "detail": "migrations.versions.a67b2c32fd2a_",
+        "importPath": "migrations.versions.e34be39c1e4c_",
+        "description": "migrations.versions.e34be39c1e4c_",
+        "peekOfCode": "def upgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.create_table('artists',\n    sa.Column('id', sa.Integer(), nullable=False),\n    sa.Column('name', sa.String(), nullable=True),\n    sa.Column('genres', sa.ARRAY(sa.String()), server_default='{}', nullable=True),\n    sa.Column('city', sa.String(length=128), nullable=True),\n    sa.Column('state', sa.String(length=128), nullable=True),\n    sa.Column('phone', sa.String(length=128), nullable=True),\n    sa.Column('facebook_link', sa.String(length=128), nullable=True),",
+        "detail": "migrations.versions.e34be39c1e4c_",
         "documentation": {}
     },
     {
         "label": "downgrade",
         "kind": 2,
-        "importPath": "migrations.versions.a67b2c32fd2a_",
-        "description": "migrations.versions.a67b2c32fd2a_",
-        "peekOfCode": "def downgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.drop_table('Venue')\n    op.drop_table('Artist')\n    # ### end Alembic commands ###",
-        "detail": "migrations.versions.a67b2c32fd2a_",
+        "importPath": "migrations.versions.e34be39c1e4c_",
+        "description": "migrations.versions.e34be39c1e4c_",
+        "peekOfCode": "def downgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.drop_table('shows')\n    op.drop_table('venues')\n    op.drop_table('artists')\n    # ### end Alembic commands ###",
+        "detail": "migrations.versions.e34be39c1e4c_",
         "documentation": {}
     },
     {
         "label": "revision",
         "kind": 5,
-        "importPath": "migrations.versions.a67b2c32fd2a_",
-        "description": "migrations.versions.a67b2c32fd2a_",
-        "peekOfCode": "revision = 'a67b2c32fd2a'\ndown_revision = None\nbranch_labels = None\ndepends_on = None\ndef upgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.create_table('Artist',\n    sa.Column('id', sa.Integer(), nullable=False),\n    sa.Column('name', sa.String(), nullable=True),\n    sa.Column('city', sa.String(length=120), nullable=True),",
-        "detail": "migrations.versions.a67b2c32fd2a_",
+        "importPath": "migrations.versions.e34be39c1e4c_",
+        "description": "migrations.versions.e34be39c1e4c_",
+        "peekOfCode": "revision = 'e34be39c1e4c'\ndown_revision = None\nbranch_labels = None\ndepends_on = None\ndef upgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.create_table('artists',\n    sa.Column('id', sa.Integer(), nullable=False),\n    sa.Column('name', sa.String(), nullable=True),\n    sa.Column('genres', sa.ARRAY(sa.String()), server_default='{}', nullable=True),",
+        "detail": "migrations.versions.e34be39c1e4c_",
         "documentation": {}
     },
     {
         "label": "down_revision",
         "kind": 5,
-        "importPath": "migrations.versions.a67b2c32fd2a_",
-        "description": "migrations.versions.a67b2c32fd2a_",
-        "peekOfCode": "down_revision = None\nbranch_labels = None\ndepends_on = None\ndef upgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.create_table('Artist',\n    sa.Column('id', sa.Integer(), nullable=False),\n    sa.Column('name', sa.String(), nullable=True),\n    sa.Column('city', sa.String(length=120), nullable=True),\n    sa.Column('state', sa.String(length=120), nullable=True),",
-        "detail": "migrations.versions.a67b2c32fd2a_",
+        "importPath": "migrations.versions.e34be39c1e4c_",
+        "description": "migrations.versions.e34be39c1e4c_",
+        "peekOfCode": "down_revision = None\nbranch_labels = None\ndepends_on = None\ndef upgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.create_table('artists',\n    sa.Column('id', sa.Integer(), nullable=False),\n    sa.Column('name', sa.String(), nullable=True),\n    sa.Column('genres', sa.ARRAY(sa.String()), server_default='{}', nullable=True),\n    sa.Column('city', sa.String(length=128), nullable=True),",
+        "detail": "migrations.versions.e34be39c1e4c_",
         "documentation": {}
     },
     {
         "label": "branch_labels",
         "kind": 5,
-        "importPath": "migrations.versions.a67b2c32fd2a_",
-        "description": "migrations.versions.a67b2c32fd2a_",
-        "peekOfCode": "branch_labels = None\ndepends_on = None\ndef upgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.create_table('Artist',\n    sa.Column('id', sa.Integer(), nullable=False),\n    sa.Column('name', sa.String(), nullable=True),\n    sa.Column('city', sa.String(length=120), nullable=True),\n    sa.Column('state', sa.String(length=120), nullable=True),\n    sa.Column('phone', sa.String(length=120), nullable=True),",
-        "detail": "migrations.versions.a67b2c32fd2a_",
+        "importPath": "migrations.versions.e34be39c1e4c_",
+        "description": "migrations.versions.e34be39c1e4c_",
+        "peekOfCode": "branch_labels = None\ndepends_on = None\ndef upgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.create_table('artists',\n    sa.Column('id', sa.Integer(), nullable=False),\n    sa.Column('name', sa.String(), nullable=True),\n    sa.Column('genres', sa.ARRAY(sa.String()), server_default='{}', nullable=True),\n    sa.Column('city', sa.String(length=128), nullable=True),\n    sa.Column('state', sa.String(length=128), nullable=True),",
+        "detail": "migrations.versions.e34be39c1e4c_",
         "documentation": {}
     },
     {
         "label": "depends_on",
         "kind": 5,
-        "importPath": "migrations.versions.a67b2c32fd2a_",
-        "description": "migrations.versions.a67b2c32fd2a_",
-        "peekOfCode": "depends_on = None\ndef upgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.create_table('Artist',\n    sa.Column('id', sa.Integer(), nullable=False),\n    sa.Column('name', sa.String(), nullable=True),\n    sa.Column('city', sa.String(length=120), nullable=True),\n    sa.Column('state', sa.String(length=120), nullable=True),\n    sa.Column('phone', sa.String(length=120), nullable=True),\n    sa.Column('genres', sa.String(length=120), nullable=True),",
-        "detail": "migrations.versions.a67b2c32fd2a_",
+        "importPath": "migrations.versions.e34be39c1e4c_",
+        "description": "migrations.versions.e34be39c1e4c_",
+        "peekOfCode": "depends_on = None\ndef upgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.create_table('artists',\n    sa.Column('id', sa.Integer(), nullable=False),\n    sa.Column('name', sa.String(), nullable=True),\n    sa.Column('genres', sa.ARRAY(sa.String()), server_default='{}', nullable=True),\n    sa.Column('city', sa.String(length=128), nullable=True),\n    sa.Column('state', sa.String(length=128), nullable=True),\n    sa.Column('phone', sa.String(length=128), nullable=True),",
+        "detail": "migrations.versions.e34be39c1e4c_",
         "documentation": {}
     },
     {
@@ -419,19 +522,37 @@
     {
         "label": "Venue",
         "kind": 6,
-        "importPath": "app",
-        "description": "app",
-        "peekOfCode": "class Venue(db.Model):\n    __tablename__ = 'Venue'\n    id = db.Column(db.Integer, primary_key=True)\n    name = db.Column(db.String)\n    city = db.Column(db.String(120))\n    state = db.Column(db.String(120))\n    address = db.Column(db.String(120))\n    phone = db.Column(db.String(120))\n    image_link = db.Column(db.String(500))\n    facebook_link = db.Column(db.String(120))",
-        "detail": "app",
+        "importPath": "models.models",
+        "description": "models.models",
+        "peekOfCode": "class Venue(db.Model):\n    __tablename__ = \"venues\"\n    id = db.Column(db.Integer, primary_key=True)\n    name = db.Column(db.String)\n    genres = db.Column(db.ARRAY(db.String), server_default=\"{}\")\n    address = db.Column(db.String(128))\n    city = db.Column(db.String(128))\n    state = db.Column(db.String(128))\n    phone = db.Column(db.String(128))\n    website = db.Column(db.String)",
+        "detail": "models.models",
         "documentation": {}
     },
     {
         "label": "Artist",
         "kind": 6,
-        "importPath": "app",
-        "description": "app",
-        "peekOfCode": "class Artist(db.Model):\n    __tablename__ = 'Artist'\n    id = db.Column(db.Integer, primary_key=True)\n    name = db.Column(db.String)\n    city = db.Column(db.String(120))\n    state = db.Column(db.String(120))\n    phone = db.Column(db.String(120))\n    genres = db.Column(db.String(120))\n    image_link = db.Column(db.String(500))\n    facebook_link = db.Column(db.String(120))",
-        "detail": "app",
+        "importPath": "models.models",
+        "description": "models.models",
+        "peekOfCode": "class Artist(db.Model):\n    __tablename__ = \"artists\"\n    id = db.Column(db.Integer, primary_key=True)\n    name = db.Column(db.String)\n    genres = db.Column(db.ARRAY(db.String), server_default=\"{}\")\n    city = db.Column(db.String(128))\n    state = db.Column(db.String(128))\n    phone = db.Column(db.String(128))\n    facebook_link = db.Column(db.String(128))\n    seeking_venue = db.Column(db.Boolean, default=False)",
+        "detail": "models.models",
+        "documentation": {}
+    },
+    {
+        "label": "Show",
+        "kind": 6,
+        "importPath": "models.models",
+        "description": "models.models",
+        "peekOfCode": "class Show(db.Model):\n    __tablename__ = \"shows\"\n    id = db.Column(db.Integer, primary_key=True)\n    venue_id = db.Column(db.Integer, db.ForeignKey(\"venues.id\"), nullable=False)\n    start_time = db.Column(db.DateTime, default=datetime.utcnow)\n    artist_id = db.Column(db.Integer, db.ForeignKey(\"artists.id\"), nullable=False)\n    def __repr__(self):\n        return f\"<Show id: {self.id}; start_time: {self.start_time}>\"\n#----------------------------------------------------------------------------\n# End",
+        "detail": "models.models",
+        "documentation": {}
+    },
+    {
+        "label": "db",
+        "kind": 5,
+        "importPath": "models.models",
+        "description": "models.models",
+        "peekOfCode": "db = SQLAlchemy()\n# Venue Model\n#----------------------------------------------------------------------------\nclass Venue(db.Model):\n    __tablename__ = \"venues\"\n    id = db.Column(db.Integer, primary_key=True)\n    name = db.Column(db.String)\n    genres = db.Column(db.ARRAY(db.String), server_default=\"{}\")\n    address = db.Column(db.String(128))\n    city = db.Column(db.String(128))",
+        "detail": "models.models",
         "documentation": {}
     },
     {
@@ -439,7 +560,7 @@
         "kind": 2,
         "importPath": "app",
         "description": "app",
-        "peekOfCode": "def format_datetime(value, format='medium'):\n  date = dateutil.parser.parse(value)\n  if format == 'full':\n      format=\"EEEE MMMM, d, y 'at' h:mma\"\n  elif format == 'medium':\n      format=\"EE MM, dd, y h:mma\"\n  return babel.dates.format_datetime(date, format, locale='en')\napp.jinja_env.filters['datetime'] = format_datetime\n#----------------------------------------------------------------------------#\n# Controllers.",
+        "peekOfCode": "def format_datetime(value, date_format=\"medium\"):\n    date = dateutil.parser.parse(value)\n    if date_format == \"full\":\n        date_format = \"EEEE MMMM, d, y 'at' h:mma\"\n    elif date_format == \"medium\":\n        date_format = \"EE MM, dd, y h:mma\"\n    return dates.format_datetime(date, date_format, locale=\"en\")\napp.jinja_env.filters[\"datetime\"] = format_datetime\n# ----------------------------------------------------------------------------#\n# Controllers.",
         "detail": "app",
         "documentation": {}
     },
@@ -448,7 +569,7 @@
         "kind": 2,
         "importPath": "app",
         "description": "app",
-        "peekOfCode": "def index():\n  return render_template('pages/home.html')\n#  Venues\n#  ----------------------------------------------------------------\n@app.route('/venues')\ndef venues():\n  # TODO: replace with real venues data.\n  #       num_upcoming_shows should be aggregated based on number of upcoming shows per venue.\n  data=[{\n    \"city\": \"San Francisco\",",
+        "peekOfCode": "def index():\n    return render_template(\"pages/home.html\")\n# ----------------------------------------------------------------------------#\n#  Venues\n# ----------------------------------------------------------------------------#\n@app.route(\"/venues\")\ndef venues():\n    upcoming_shows = get_utility.get_shows(\"future\")\n    data = [{\n        \"city\": venue.city,",
         "detail": "app",
         "documentation": {}
     },
@@ -457,7 +578,7 @@
         "kind": 2,
         "importPath": "app",
         "description": "app",
-        "peekOfCode": "def venues():\n  # TODO: replace with real venues data.\n  #       num_upcoming_shows should be aggregated based on number of upcoming shows per venue.\n  data=[{\n    \"city\": \"San Francisco\",\n    \"state\": \"CA\",\n    \"venues\": [{\n      \"id\": 1,\n      \"name\": \"The Musical Hop\",\n      \"num_upcoming_shows\": 0,",
+        "peekOfCode": "def venues():\n    upcoming_shows = get_utility.get_shows(\"future\")\n    data = [{\n        \"city\": venue.city,\n        \"state\": venue.state,\n        \"venues\": [{\n            \"id\": venue.id,\n            \"name\": venue.name,\n            \"num_upcoming_shows\": [show.venue_id for show in upcoming_shows].count(venue.id)\n        } for venue in Venue.query.filter(Venue.city == venue.city)",
         "detail": "app",
         "documentation": {}
     },
@@ -466,7 +587,7 @@
         "kind": 2,
         "importPath": "app",
         "description": "app",
-        "peekOfCode": "def search_venues():\n  # TODO: implement search on venues with partial string search. Ensure it is case-insensitive.\n  # seach for Hop should return \"The Musical Hop\".\n  # search for \"Music\" should return \"The Musical Hop\" and \"Park Square Live Music & Coffee\"\n  response={\n    \"count\": 1,\n    \"data\": [{\n      \"id\": 2,\n      \"name\": \"The Dueling Pianos Bar\",\n      \"num_upcoming_shows\": 0,",
+        "peekOfCode": "def search_venues():\n    pattern = request.form.get(\"search_term\", default=\"\")\n    results = get_utility.search(entity=\"venues\", pattern=pattern)\n    response = {\n        \"count\": len(results),\n        \"data\": [{\n            \"id\": venue.id,\n            \"name\": venue.name,\n            \"num_upcoming_shows\": len(get_utility.get_shows_for_venue(venue.id, \"future\"))\n        } for venue in results]",
         "detail": "app",
         "documentation": {}
     },
@@ -475,7 +596,7 @@
         "kind": 2,
         "importPath": "app",
         "description": "app",
-        "peekOfCode": "def show_venue(venue_id):\n  # shows the venue page with the given venue_id\n  # TODO: replace with real venue data from the venues table, using venue_id\n  data1={\n    \"id\": 1,\n    \"name\": \"The Musical Hop\",\n    \"genres\": [\"Jazz\", \"Reggae\", \"Swing\", \"Classical\", \"Folk\"],\n    \"address\": \"1015 Folsom Street\",\n    \"city\": \"San Francisco\",\n    \"state\": \"CA\",",
+        "peekOfCode": "def show_venue(venue_id):\n    venue = Venue.query.get(venue_id)\n    if not venue:\n        abort(404)\n    past_venue_shows = get_utility.get_shows_for_venue(venue_id, \"past\")\n    upcoming_venue_shows = get_utility.get_shows_for_venue(venue_id, \"future\")\n    past_shows = [{\n        \"artist_id\": show.artist_id,\n        \"artist_name\": show.artists.name,\n        \"artist_image_link\": show.artists.image_link,",
         "detail": "app",
         "documentation": {}
     },
@@ -484,7 +605,7 @@
         "kind": 2,
         "importPath": "app",
         "description": "app",
-        "peekOfCode": "def create_venue_form():\n  form = VenueForm()\n  return render_template('forms/new_venue.html', form=form)\n@app.route('/venues/create', methods=['POST'])\ndef create_venue_submission():\n  # TODO: insert form data as a new Venue record in the db, instead\n  # TODO: modify data to be the data object returned from db insertion\n  # on successful db insert, flash success\n  flash('Venue ' + request.form['name'] + ' was successfully listed!')\n  # TODO: on unsuccessful db insert, flash an error instead.",
+        "peekOfCode": "def create_venue_form():\n    form = VenueForm()\n    return render_template(\"forms/new_venue.html\", form=form)\n@app.route(\"/venues/create\", methods=[\"POST\"])\ndef create_venue_submission():\n    venue = Venue()\n    get_utility.handle_submission(venue, \"insert\")\n    return redirect(url_for(\"index\"))\n@app.route(\"/venues/<venue_id>\", methods=[\"DELETE\"])\ndef delete_venue(venue_id):",
         "detail": "app",
         "documentation": {}
     },
@@ -493,7 +614,7 @@
         "kind": 2,
         "importPath": "app",
         "description": "app",
-        "peekOfCode": "def create_venue_submission():\n  # TODO: insert form data as a new Venue record in the db, instead\n  # TODO: modify data to be the data object returned from db insertion\n  # on successful db insert, flash success\n  flash('Venue ' + request.form['name'] + ' was successfully listed!')\n  # TODO: on unsuccessful db insert, flash an error instead.\n  # e.g., flash('An error occurred. Venue ' + data.name + ' could not be listed.')\n  # see: http://flask.pocoo.org/docs/1.0/patterns/flashing/\n  return render_template('pages/home.html')\n@app.route('/venues/<venue_id>', methods=['DELETE'])",
+        "peekOfCode": "def create_venue_submission():\n    venue = Venue()\n    get_utility.handle_submission(venue, \"insert\")\n    return redirect(url_for(\"index\"))\n@app.route(\"/venues/<venue_id>\", methods=[\"DELETE\"])\ndef delete_venue(venue_id):\n    venue = Venue.query.get(venue_id)\n    try:\n        db.session.delete(venue)\n        db.session.commit()",
         "detail": "app",
         "documentation": {}
     },
@@ -502,7 +623,7 @@
         "kind": 2,
         "importPath": "app",
         "description": "app",
-        "peekOfCode": "def delete_venue(venue_id):\n  # TODO: Complete this endpoint for taking a venue_id, and using\n  # SQLAlchemy ORM to delete a record. Handle cases where the session commit could fail.\n  # BONUS CHALLENGE: Implement a button to delete a Venue on a Venue Page, have it so that\n  # clicking that button delete it from the db then redirect the user to the homepage\n  return None\n#  Artists\n#  ----------------------------------------------------------------\n@app.route('/artists')\ndef artists():",
+        "peekOfCode": "def delete_venue(venue_id):\n    venue = Venue.query.get(venue_id)\n    try:\n        db.session.delete(venue)\n        db.session.commit()\n    except Exception as e:\n        logging.error(e)\n        db.session.rollback()\n    finally:\n        db.session.close()",
         "detail": "app",
         "documentation": {}
     },
@@ -511,7 +632,7 @@
         "kind": 2,
         "importPath": "app",
         "description": "app",
-        "peekOfCode": "def artists():\n  # TODO: replace with real data returned from querying the database\n  data=[{\n    \"id\": 4,\n    \"name\": \"Guns N Petals\",\n  }, {\n    \"id\": 5,\n    \"name\": \"Matt Quevedo\",\n  }, {\n    \"id\": 6,",
+        "peekOfCode": "def artists():\n    data = [{\"id\": artist.id, \"name\": artist.name} for artist in Artist.query.all()]\n    return render_template(\"pages/artists.html\", artists=data)\n@app.route(\"/artists/search\", methods=[\"POST\"])\ndef search_artists():\n    pattern = request.form.get(\"search_term\", default=\"\")\n    results = get_utility.search(entity=\"artists\", pattern=pattern)\n    response = {\n        \"count\": len(results),\n        \"data\": [{",
         "detail": "app",
         "documentation": {}
     },
@@ -520,7 +641,7 @@
         "kind": 2,
         "importPath": "app",
         "description": "app",
-        "peekOfCode": "def search_artists():\n  # TODO: implement search on artists with partial string search. Ensure it is case-insensitive.\n  # seach for \"A\" should return \"Guns N Petals\", \"Matt Quevado\", and \"The Wild Sax Band\".\n  # search for \"band\" should return \"The Wild Sax Band\".\n  response={\n    \"count\": 1,\n    \"data\": [{\n      \"id\": 4,\n      \"name\": \"Guns N Petals\",\n      \"num_upcoming_shows\": 0,",
+        "peekOfCode": "def search_artists():\n    pattern = request.form.get(\"search_term\", default=\"\")\n    results = get_utility.search(entity=\"artists\", pattern=pattern)\n    response = {\n        \"count\": len(results),\n        \"data\": [{\n            \"id\": artist.id,\n            \"name\": artist.name,\n            \"num_upcoming_shows\": get_utility.get_shows_for_artist(artist.id, \"future\"),\n        } for artist in results]",
         "detail": "app",
         "documentation": {}
     },
@@ -529,7 +650,7 @@
         "kind": 2,
         "importPath": "app",
         "description": "app",
-        "peekOfCode": "def show_artist(artist_id):\n  # shows the artist page with the given artist_id\n  # TODO: replace with real artist data from the artist table, using artist_id\n  data1={\n    \"id\": 4,\n    \"name\": \"Guns N Petals\",\n    \"genres\": [\"Rock n Roll\"],\n    \"city\": \"San Francisco\",\n    \"state\": \"CA\",\n    \"phone\": \"326-123-5000\",",
+        "peekOfCode": "def show_artist(artist_id):\n    # shows the artist page with the given artist_id\n    artist_past_shows = get_utility.get_shows_for_artist(artist_id, \"past\")\n    artist_upcoming_shows = get_utility.get_shows_for_artist(artist_id, \"future\")\n    past_shows = [{\n        \"venue_id\": show.venue_id,\n        \"venue_name\": show.venues.name,\n        \"venue_image_link\": show.venues.image_link,\n        \"start_time\": str(show.start_time),\n    } for show in artist_past_shows]",
         "detail": "app",
         "documentation": {}
     },
@@ -538,7 +659,7 @@
         "kind": 2,
         "importPath": "app",
         "description": "app",
-        "peekOfCode": "def edit_artist(artist_id):\n  form = ArtistForm()\n  artist={\n    \"id\": 4,\n    \"name\": \"Guns N Petals\",\n    \"genres\": [\"Rock n Roll\"],\n    \"city\": \"San Francisco\",\n    \"state\": \"CA\",\n    \"phone\": \"326-123-5000\",\n    \"website\": \"https://www.gunsnpetalsband.com\",",
+        "peekOfCode": "def edit_artist(artist_id):\n    form = ArtistForm()\n    artist = Artist.query.get(artist_id)\n    data = {\"id\": artist.id, \"name\": artist.name}\n    return render_template(\"forms/edit_artist.html\", form=form, artist=data)\n@app.route(\"/artists/<int:artist_id>/edit\", methods=[\"POST\"])\ndef edit_artist_submission(artist_id):\n    artist = Artist()\n    get_utility.handle_submission(artist, operation=\"update\", entity_id=artist_id)\n    return redirect(url_for(\"show_artist\", artist_id=artist_id))",
         "detail": "app",
         "documentation": {}
     },
@@ -547,7 +668,7 @@
         "kind": 2,
         "importPath": "app",
         "description": "app",
-        "peekOfCode": "def edit_artist_submission(artist_id):\n  # TODO: take values from the form submitted, and update existing\n  # artist record with ID <artist_id> using the new attributes\n  return redirect(url_for('show_artist', artist_id=artist_id))\n@app.route('/venues/<int:venue_id>/edit', methods=['GET'])\ndef edit_venue(venue_id):\n  form = VenueForm()\n  venue={\n    \"id\": 1,\n    \"name\": \"The Musical Hop\",",
+        "peekOfCode": "def edit_artist_submission(artist_id):\n    artist = Artist()\n    get_utility.handle_submission(artist, operation=\"update\", entity_id=artist_id)\n    return redirect(url_for(\"show_artist\", artist_id=artist_id))\n@app.route(\"/venues/<int:venue_id>/edit\", methods=[\"GET\"])\ndef edit_venue(venue_id):\n    form = VenueForm()\n    venue = Venue.query.get(venue_id)\n    data = {\n        \"id\": venue.id,",
         "detail": "app",
         "documentation": {}
     },
@@ -556,7 +677,7 @@
         "kind": 2,
         "importPath": "app",
         "description": "app",
-        "peekOfCode": "def edit_venue(venue_id):\n  form = VenueForm()\n  venue={\n    \"id\": 1,\n    \"name\": \"The Musical Hop\",\n    \"genres\": [\"Jazz\", \"Reggae\", \"Swing\", \"Classical\", \"Folk\"],\n    \"address\": \"1015 Folsom Street\",\n    \"city\": \"San Francisco\",\n    \"state\": \"CA\",\n    \"phone\": \"123-123-1234\",",
+        "peekOfCode": "def edit_venue(venue_id):\n    form = VenueForm()\n    venue = Venue.query.get(venue_id)\n    data = {\n        \"id\": venue.id,\n        \"name\": venue.name,\n        \"genres\": venue.genres,\n        \"address\": venue.address,\n        \"city\": venue.city,\n        \"state\": venue.state,",
         "detail": "app",
         "documentation": {}
     },
@@ -565,7 +686,7 @@
         "kind": 2,
         "importPath": "app",
         "description": "app",
-        "peekOfCode": "def edit_venue_submission(venue_id):\n  # TODO: take values from the form submitted, and update existing\n  # venue record with ID <venue_id> using the new attributes\n  return redirect(url_for('show_venue', venue_id=venue_id))\n#  Create Artist\n#  ----------------------------------------------------------------\n@app.route('/artists/create', methods=['GET'])\ndef create_artist_form():\n  form = ArtistForm()\n  return render_template('forms/new_artist.html', form=form)",
+        "peekOfCode": "def edit_venue_submission(venue_id):\n    venue = Venue()\n    get_utility.handle_submission(venue, operation=\"update\", entity_id=venue_id)\n    return redirect(url_for(\"show_venue\", venue_id=venue_id))\n# ----------------------------------------------------------------------------#\n#  Create Artist\n# ----------------------------------------------------------------------------#\n@app.route(\"/artists/create\", methods=[\"GET\"])\ndef create_artist_form():\n    form = ArtistForm()",
         "detail": "app",
         "documentation": {}
     },
@@ -574,7 +695,7 @@
         "kind": 2,
         "importPath": "app",
         "description": "app",
-        "peekOfCode": "def create_artist_form():\n  form = ArtistForm()\n  return render_template('forms/new_artist.html', form=form)\n@app.route('/artists/create', methods=['POST'])\ndef create_artist_submission():\n  # called upon submitting the new artist listing form\n  # TODO: insert form data as a new Venue record in the db, instead\n  # TODO: modify data to be the data object returned from db insertion\n  # on successful db insert, flash success\n  flash('Artist ' + request.form['name'] + ' was successfully listed!')",
+        "peekOfCode": "def create_artist_form():\n    form = ArtistForm()\n    return render_template(\"forms/new_artist.html\", form=form)\n@app.route(\"/artists/create\", methods=[\"POST\"])\ndef create_artist_submission():\n    artist = Artist()\n    get_utility.handle_submission(artist, \"insert\")\n    return redirect(url_for(\"index\"))\n# ----------------------------------------------------------------------------#\n#  Shows",
         "detail": "app",
         "documentation": {}
     },
@@ -583,7 +704,7 @@
         "kind": 2,
         "importPath": "app",
         "description": "app",
-        "peekOfCode": "def create_artist_submission():\n  # called upon submitting the new artist listing form\n  # TODO: insert form data as a new Venue record in the db, instead\n  # TODO: modify data to be the data object returned from db insertion\n  # on successful db insert, flash success\n  flash('Artist ' + request.form['name'] + ' was successfully listed!')\n  # TODO: on unsuccessful db insert, flash an error instead.\n  # e.g., flash('An error occurred. Artist ' + data.name + ' could not be listed.')\n  return render_template('pages/home.html')\n#  Shows",
+        "peekOfCode": "def create_artist_submission():\n    artist = Artist()\n    get_utility.handle_submission(artist, \"insert\")\n    return redirect(url_for(\"index\"))\n# ----------------------------------------------------------------------------#\n#  Shows\n# ----------------------------------------------------------------------------#\n@app.route(\"/shows\")\ndef shows():\n    # displays list of shows at /shows",
         "detail": "app",
         "documentation": {}
     },
@@ -592,7 +713,7 @@
         "kind": 2,
         "importPath": "app",
         "description": "app",
-        "peekOfCode": "def shows():\n  # displays list of shows at /shows\n  # TODO: replace with real venues data.\n  data=[{\n    \"venue_id\": 1,\n    \"venue_name\": \"The Musical Hop\",\n    \"artist_id\": 4,\n    \"artist_name\": \"Guns N Petals\",\n    \"artist_image_link\": \"https://images.unsplash.com/photo-1549213783-8284d0336c4f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=300&q=80\",\n    \"start_time\": \"2019-05-21T21:30:00.000Z\"",
+        "peekOfCode": "def shows():\n    # displays list of shows at /shows\n    shows_data = [{\n        \"venue_id\": show.venue_id,\n        \"venue_name\": show.venues.name,\n        \"artist_id\": show.artists.id,\n        \"artist_name\": show.artists.name,\n        \"artist_image_link\": show.artists.image_link,\n        \"start_time\": str(show.start_time)}\n        for show in Show.query.all()",
         "detail": "app",
         "documentation": {}
     },
@@ -601,7 +722,7 @@
         "kind": 2,
         "importPath": "app",
         "description": "app",
-        "peekOfCode": "def create_shows():\n  # renders form. do not touch.\n  form = ShowForm()\n  return render_template('forms/new_show.html', form=form)\n@app.route('/shows/create', methods=['POST'])\ndef create_show_submission():\n  # called to create new shows in the db, upon submitting new show listing form\n  # TODO: insert form data as a new Show record in the db, instead\n  # on successful db insert, flash success\n  flash('Show was successfully listed!')",
+        "peekOfCode": "def create_shows():\n    # renders form. do not touch.\n    form = ShowForm()\n    return render_template(\"forms/new_show.html\", form=form)\n@app.route(\"/shows/create\", methods=[\"POST\"])\ndef create_show_submission():\n    show = Show()\n    get_utility.handle_submission(show, \"insert\")\n    return redirect(url_for(\"index\"))\n@app.errorhandler(404)",
         "detail": "app",
         "documentation": {}
     },
@@ -610,7 +731,7 @@
         "kind": 2,
         "importPath": "app",
         "description": "app",
-        "peekOfCode": "def create_show_submission():\n  # called to create new shows in the db, upon submitting new show listing form\n  # TODO: insert form data as a new Show record in the db, instead\n  # on successful db insert, flash success\n  flash('Show was successfully listed!')\n  # TODO: on unsuccessful db insert, flash an error instead.\n  # e.g., flash('An error occurred. Show could not be listed.')\n  # see: http://flask.pocoo.org/docs/1.0/patterns/flashing/\n  return render_template('pages/home.html')\n@app.errorhandler(404)",
+        "peekOfCode": "def create_show_submission():\n    show = Show()\n    get_utility.handle_submission(show, \"insert\")\n    return redirect(url_for(\"index\"))\n@app.errorhandler(404)\ndef not_found_error(error):\n    logging.error(error)\n    return render_template(\"errors/404.html\"), 404\n@app.errorhandler(500)\ndef server_error(error):",
         "detail": "app",
         "documentation": {}
     },
@@ -619,7 +740,7 @@
         "kind": 2,
         "importPath": "app",
         "description": "app",
-        "peekOfCode": "def not_found_error(error):\n    return render_template('errors/404.html'), 404\n@app.errorhandler(500)\ndef server_error(error):\n    return render_template('errors/500.html'), 500\nif not app.debug:\n    file_handler = FileHandler('error.log')\n    file_handler.setFormatter(\n        Formatter('%(asctime)s %(levelname)s: %(message)s [in %(pathname)s:%(lineno)d]')\n    )",
+        "peekOfCode": "def not_found_error(error):\n    logging.error(error)\n    return render_template(\"errors/404.html\"), 404\n@app.errorhandler(500)\ndef server_error(error):\n    logging.error(error)\n    return render_template(\"errors/500.html\"), 500\nif not app.debug:\n    file_handler = FileHandler(\"error.log\")\n    file_handler.setFormatter(",
         "detail": "app",
         "documentation": {}
     },
@@ -628,7 +749,7 @@
         "kind": 2,
         "importPath": "app",
         "description": "app",
-        "peekOfCode": "def server_error(error):\n    return render_template('errors/500.html'), 500\nif not app.debug:\n    file_handler = FileHandler('error.log')\n    file_handler.setFormatter(\n        Formatter('%(asctime)s %(levelname)s: %(message)s [in %(pathname)s:%(lineno)d]')\n    )\n    app.logger.setLevel(logging.INFO)\n    file_handler.setLevel(logging.INFO)\n    app.logger.addHandler(file_handler)",
+        "peekOfCode": "def server_error(error):\n    logging.error(error)\n    return render_template(\"errors/500.html\"), 500\nif not app.debug:\n    file_handler = FileHandler(\"error.log\")\n    file_handler.setFormatter(\n        Formatter(\"%(asctime)s %(levelname)s: %(message)s [in %(pathname)s:%(lineno)d]\")\n    )\n    app.logger.setLevel(logging.INFO)\n    file_handler.setLevel(logging.INFO)",
         "detail": "app",
         "documentation": {}
     },
@@ -637,7 +758,34 @@
         "kind": 5,
         "importPath": "app",
         "description": "app",
-        "peekOfCode": "app = Flask(__name__)\nmoment = Moment(app)\napp.config.from_object('config')\ndb = SQLAlchemy(app)\n# For Miagration\nmigration=Migrate(app,db)\n# TODO: connect to a local postgresql database\n#----------------------------------------------------------------------------#\n# Models.\n#----------------------------------------------------------------------------#",
+        "peekOfCode": "app = Flask(__name__, template_folder=\"./templates\")\napp.config.from_object(\"config\")\napp.config[\"SQLALCHEMY_DATABASE_URI\"] = SQLALCHEMY_DATABASE_URI\napp.config[\"SQLALCHEMY_TRACK_MODIFICATIONS\"] = False\ndb.init_app(app)\nmigrate = Migrate(app, db)\nmoment = Moment(app)\nget_utility = getUtility()\n# ----------------------------------------------------------------------------#\n# Filters.",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "app.config[\"SQLALCHEMY_DATABASE_URI\"]",
+        "kind": 5,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "app.config[\"SQLALCHEMY_DATABASE_URI\"] = SQLALCHEMY_DATABASE_URI\napp.config[\"SQLALCHEMY_TRACK_MODIFICATIONS\"] = False\ndb.init_app(app)\nmigrate = Migrate(app, db)\nmoment = Moment(app)\nget_utility = getUtility()\n# ----------------------------------------------------------------------------#\n# Filters.\n# ----------------------------------------------------------------------------#\ndef format_datetime(value, date_format=\"medium\"):",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "app.config[\"SQLALCHEMY_TRACK_MODIFICATIONS\"]",
+        "kind": 5,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "app.config[\"SQLALCHEMY_TRACK_MODIFICATIONS\"] = False\ndb.init_app(app)\nmigrate = Migrate(app, db)\nmoment = Moment(app)\nget_utility = getUtility()\n# ----------------------------------------------------------------------------#\n# Filters.\n# ----------------------------------------------------------------------------#\ndef format_datetime(value, date_format=\"medium\"):\n    date = dateutil.parser.parse(value)",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "migrate",
+        "kind": 5,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "migrate = Migrate(app, db)\nmoment = Moment(app)\nget_utility = getUtility()\n# ----------------------------------------------------------------------------#\n# Filters.\n# ----------------------------------------------------------------------------#\ndef format_datetime(value, date_format=\"medium\"):\n    date = dateutil.parser.parse(value)\n    if date_format == \"full\":\n        date_format = \"EEEE MMMM, d, y 'at' h:mma\"",
         "detail": "app",
         "documentation": {}
     },
@@ -646,25 +794,25 @@
         "kind": 5,
         "importPath": "app",
         "description": "app",
-        "peekOfCode": "moment = Moment(app)\napp.config.from_object('config')\ndb = SQLAlchemy(app)\n# For Miagration\nmigration=Migrate(app,db)\n# TODO: connect to a local postgresql database\n#----------------------------------------------------------------------------#\n# Models.\n#----------------------------------------------------------------------------#\nclass Venue(db.Model):",
+        "peekOfCode": "moment = Moment(app)\nget_utility = getUtility()\n# ----------------------------------------------------------------------------#\n# Filters.\n# ----------------------------------------------------------------------------#\ndef format_datetime(value, date_format=\"medium\"):\n    date = dateutil.parser.parse(value)\n    if date_format == \"full\":\n        date_format = \"EEEE MMMM, d, y 'at' h:mma\"\n    elif date_format == \"medium\":",
         "detail": "app",
         "documentation": {}
     },
     {
-        "label": "db",
+        "label": "get_utility",
         "kind": 5,
         "importPath": "app",
         "description": "app",
-        "peekOfCode": "db = SQLAlchemy(app)\n# For Miagration\nmigration=Migrate(app,db)\n# TODO: connect to a local postgresql database\n#----------------------------------------------------------------------------#\n# Models.\n#----------------------------------------------------------------------------#\nclass Venue(db.Model):\n    __tablename__ = 'Venue'\n    id = db.Column(db.Integer, primary_key=True)",
+        "peekOfCode": "get_utility = getUtility()\n# ----------------------------------------------------------------------------#\n# Filters.\n# ----------------------------------------------------------------------------#\ndef format_datetime(value, date_format=\"medium\"):\n    date = dateutil.parser.parse(value)\n    if date_format == \"full\":\n        date_format = \"EEEE MMMM, d, y 'at' h:mma\"\n    elif date_format == \"medium\":\n        date_format = \"EE MM, dd, y h:mma\"",
         "detail": "app",
         "documentation": {}
     },
     {
-        "label": "app.jinja_env.filters['datetime']",
+        "label": "app.jinja_env.filters[\"datetime\"]",
         "kind": 5,
         "importPath": "app",
         "description": "app",
-        "peekOfCode": "app.jinja_env.filters['datetime'] = format_datetime\n#----------------------------------------------------------------------------#\n# Controllers.\n#----------------------------------------------------------------------------#\n@app.route('/')\ndef index():\n  return render_template('pages/home.html')\n#  Venues\n#  ----------------------------------------------------------------\n@app.route('/venues')",
+        "peekOfCode": "app.jinja_env.filters[\"datetime\"] = format_datetime\n# ----------------------------------------------------------------------------#\n# Controllers.\n# ----------------------------------------------------------------------------#\n@app.route(\"/\")\ndef index():\n    return render_template(\"pages/home.html\")\n# ----------------------------------------------------------------------------#\n#  Venues\n# ----------------------------------------------------------------------------#",
         "detail": "app",
         "documentation": {}
     },
@@ -673,7 +821,7 @@
         "kind": 5,
         "importPath": "config",
         "description": "config",
-        "peekOfCode": "SECRET_KEY = os.urandom(32)\n# Grabs the folder where the script runs.\nbasedir = os.path.abspath(os.path.dirname(__file__))\n# Enable debug mode.\nDEBUG = True\n# Connect to the database\n# TODO IMPLEMENT DATABASE URL\nSQLALCHEMY_DATABASE_URI = 'postgresql://postgres:abc123@localhost:5432/fyyur'",
+        "peekOfCode": "SECRET_KEY = os.urandom(32)\n# Grabs the folder where the script runs.\nbasedir = os.path.abspath(os.path.dirname(__file__))\n# Enable debug mode.\nDEBUG = True\n# Connect to the database\n# TODO IMPLEMENT DATABASE URL\nSQLALCHEMY_DATABASE_URI = 'postgresql://postgres:abc123@localhost:5432/fyyur'\nSQLALCHEMY_TRACK_MODIFICATIONS = False",
         "detail": "config",
         "documentation": {}
     },
@@ -682,7 +830,7 @@
         "kind": 5,
         "importPath": "config",
         "description": "config",
-        "peekOfCode": "basedir = os.path.abspath(os.path.dirname(__file__))\n# Enable debug mode.\nDEBUG = True\n# Connect to the database\n# TODO IMPLEMENT DATABASE URL\nSQLALCHEMY_DATABASE_URI = 'postgresql://postgres:abc123@localhost:5432/fyyur'",
+        "peekOfCode": "basedir = os.path.abspath(os.path.dirname(__file__))\n# Enable debug mode.\nDEBUG = True\n# Connect to the database\n# TODO IMPLEMENT DATABASE URL\nSQLALCHEMY_DATABASE_URI = 'postgresql://postgres:abc123@localhost:5432/fyyur'\nSQLALCHEMY_TRACK_MODIFICATIONS = False",
         "detail": "config",
         "documentation": {}
     },
@@ -691,7 +839,7 @@
         "kind": 5,
         "importPath": "config",
         "description": "config",
-        "peekOfCode": "DEBUG = True\n# Connect to the database\n# TODO IMPLEMENT DATABASE URL\nSQLALCHEMY_DATABASE_URI = 'postgresql://postgres:abc123@localhost:5432/fyyur'",
+        "peekOfCode": "DEBUG = True\n# Connect to the database\n# TODO IMPLEMENT DATABASE URL\nSQLALCHEMY_DATABASE_URI = 'postgresql://postgres:abc123@localhost:5432/fyyur'\nSQLALCHEMY_TRACK_MODIFICATIONS = False",
         "detail": "config",
         "documentation": {}
     },
@@ -700,7 +848,16 @@
         "kind": 5,
         "importPath": "config",
         "description": "config",
-        "peekOfCode": "SQLALCHEMY_DATABASE_URI = 'postgresql://postgres:abc123@localhost:5432/fyyur'",
+        "peekOfCode": "SQLALCHEMY_DATABASE_URI = 'postgresql://postgres:abc123@localhost:5432/fyyur'\nSQLALCHEMY_TRACK_MODIFICATIONS = False",
+        "detail": "config",
+        "documentation": {}
+    },
+    {
+        "label": "SQLALCHEMY_TRACK_MODIFICATIONS",
+        "kind": 5,
+        "importPath": "config",
+        "description": "config",
+        "peekOfCode": "SQLALCHEMY_TRACK_MODIFICATIONS = False",
         "detail": "config",
         "documentation": {}
     },
@@ -786,11 +943,20 @@
         "documentation": {}
     },
     {
+        "label": "ArtistForm",
+        "kind": 6,
+        "importPath": "forms",
+        "description": "forms",
+        "peekOfCode": "class ArtistForm(FlaskForm):\n    name = StringField(\n        'name', validators=[DataRequired()]\n    )\n    city = StringField(\n        'city', validators=[DataRequired()]\n    )\n    state = SelectField(\n        'state', validators=[DataRequired()],\n        choices=states_list",
+        "detail": "forms",
+        "documentation": {}
+    },
+    {
         "label": "ShowForm",
         "kind": 6,
         "importPath": "forms",
         "description": "forms",
-        "peekOfCode": "class ShowForm(Form):\n    artist_id = StringField(\n        'artist_id'\n    )\n    venue_id = StringField(\n        'venue_id'\n    )\n    start_time = DateTimeField(\n        'start_time',\n        validators=[DataRequired()],",
+        "peekOfCode": "class ShowForm(FlaskForm):\n    artist_id = StringField(\n        'artist_id'\n    )\n    venue_id = StringField(\n        'venue_id'\n    )\n    start_time = DateTimeField(\n        'start_time',\n        validators=[DataRequired()],",
         "detail": "forms",
         "documentation": {}
     },
@@ -799,17 +965,35 @@
         "kind": 6,
         "importPath": "forms",
         "description": "forms",
-        "peekOfCode": "class VenueForm(Form):\n    name = StringField(\n        'name', validators=[DataRequired()]\n    )\n    city = StringField(\n        'city', validators=[DataRequired()]\n    )\n    state = SelectField(\n        'state', validators=[DataRequired()],\n        choices=[",
+        "peekOfCode": "class VenueForm(FlaskForm):\n    name = StringField(\n        'name', validators=[DataRequired()]\n    )\n    city = StringField(\n        'city', validators=[DataRequired()]\n    )\n    state = SelectField(\n        'state', validators=[DataRequired()],\n        choices=states_list",
         "detail": "forms",
         "documentation": {}
     },
     {
-        "label": "ArtistForm",
-        "kind": 6,
+        "label": "states_list",
+        "kind": 5,
         "importPath": "forms",
         "description": "forms",
-        "peekOfCode": "class ArtistForm(Form):\n    name = StringField(\n        'name', validators=[DataRequired()]\n    )\n    city = StringField(\n        'city', validators=[DataRequired()]\n    )\n    state = SelectField(\n        'state', validators=[DataRequired()],\n        choices=[",
+        "peekOfCode": "states_list = [\n    ('AL', 'AL'),\n    ('AK', 'AK'),\n    ('AZ', 'AZ'),\n    ('AR', 'AR'),\n    ('CA', 'CA'),\n    ('CO', 'CO'),\n    ('CT', 'CT'),\n    ('DE', 'DE'),\n    ('DC', 'DC'),",
         "detail": "forms",
+        "documentation": {}
+    },
+    {
+        "label": "genres_list",
+        "kind": 5,
+        "importPath": "forms",
+        "description": "forms",
+        "peekOfCode": "genres_list = [\n    ('Alternative', 'Alternative'),\n    ('Blues', 'Blues'),\n    ('Classical', 'Classical'),\n    ('Country', 'Country'),\n    ('Electronic', 'Electronic'),\n    ('Folk', 'Folk'),\n    ('Funk', 'Funk'),\n    ('Hip-Hop', 'Hip-Hop'),\n    ('Heavy Metal', 'Heavy Metal'),",
+        "detail": "forms",
+        "documentation": {}
+    },
+    {
+        "label": "getUtility",
+        "kind": 6,
+        "importPath": "get_utility",
+        "description": "get_utility",
+        "peekOfCode": "class getUtility:\n    def get_shows(self, interval=\"all\", entity=\"show\", entity_id=None):\n        all_shows = db.session.query(Show)\n        if interval == \"all\" or entity in [None, \"show\"] or not entity_id:\n            return all_shows.all()\n        time_expr = Show.start_time < datetime.now() if interval == \"past\" else Show.start_time > datetime.now()\n        entity_filter = Show.artist_id if entity == \"artist\" else Show.venue_id\n        return all_shows \\\n            .join(Venue) \\\n            .filter(entity_filter == entity_id) \\",
+        "detail": "get_utility",
         "documentation": {}
     }
 ]
