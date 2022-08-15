@@ -317,6 +317,15 @@
         "documentation": {}
     },
     {
+        "label": "enum",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "enum",
+        "description": "enum",
+        "detail": "enum",
+        "documentation": {}
+    },
+    {
         "label": "abort",
         "importPath": "fabric.api",
         "description": "fabric.api",
@@ -394,6 +403,31 @@
         "description": "wtforms",
         "isExtraImport": true,
         "detail": "wtforms",
+        "documentation": {}
+    },
+    {
+        "label": "Genre",
+        "importPath": "enums",
+        "description": "enums",
+        "isExtraImport": true,
+        "detail": "enums",
+        "documentation": {}
+    },
+    {
+        "label": "State",
+        "importPath": "enums",
+        "description": "enums",
+        "isExtraImport": true,
+        "detail": "enums",
+        "documentation": {}
+    },
+    {
+        "label": "re",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "re",
+        "description": "re",
+        "detail": "re",
         "documentation": {}
     },
     {
@@ -862,6 +896,24 @@
         "documentation": {}
     },
     {
+        "label": "Genre",
+        "kind": 6,
+        "importPath": "enums",
+        "description": "enums",
+        "peekOfCode": "class Genre(enum.Enum):\n    Alternative = 'Alternative'\n    Blues = 'Blues'\n    Classical = 'Classical'\n    Country = 'Country'\n    Electronic = 'Electronic'\n    Folk = 'Folk'\n    Funk = 'Funk'\n    Hip_Hop = 'Hip-Hop'\n    Heavy_Metal = 'Heavy Metal'",
+        "detail": "enums",
+        "documentation": {}
+    },
+    {
+        "label": "State",
+        "kind": 6,
+        "importPath": "enums",
+        "description": "enums",
+        "peekOfCode": "class State(enum.Enum):\n    AL = 'AL'\n    AK = 'AK'\n    AZ = 'AZ'\n    AR = 'AR'\n    CA = 'CA'\n    CO = 'CO'\n    CT = 'CT'\n    DE = 'DE'\n    DC = 'DC'",
+        "detail": "enums",
+        "documentation": {}
+    },
+    {
         "label": "test",
         "kind": 2,
         "importPath": "fabfile",
@@ -947,7 +999,7 @@
         "kind": 6,
         "importPath": "forms",
         "description": "forms",
-        "peekOfCode": "class ArtistForm(FlaskForm):\n    name = StringField(\n        'name', validators=[DataRequired()]\n    )\n    city = StringField(\n        'city', validators=[DataRequired()]\n    )\n    state = SelectField(\n        'state', validators=[DataRequired()],\n        choices=states_list",
+        "peekOfCode": "class ArtistForm(FlaskForm):\n    name = StringField(\n        'name', validators=[DataRequired()]\n    )\n    city = StringField(\n        'city', validators=[DataRequired()]\n    )\n    state = SelectField(\n        'state', validators=[DataRequired()],\n        choices=State.choices()",
         "detail": "forms",
         "documentation": {}
     },
@@ -965,25 +1017,7 @@
         "kind": 6,
         "importPath": "forms",
         "description": "forms",
-        "peekOfCode": "class VenueForm(FlaskForm):\n    name = StringField(\n        'name', validators=[DataRequired()]\n    )\n    city = StringField(\n        'city', validators=[DataRequired()]\n    )\n    state = SelectField(\n        'state', validators=[DataRequired()],\n        choices=states_list",
-        "detail": "forms",
-        "documentation": {}
-    },
-    {
-        "label": "states_list",
-        "kind": 5,
-        "importPath": "forms",
-        "description": "forms",
-        "peekOfCode": "states_list = [\n    ('AL', 'AL'),\n    ('AK', 'AK'),\n    ('AZ', 'AZ'),\n    ('AR', 'AR'),\n    ('CA', 'CA'),\n    ('CO', 'CO'),\n    ('CT', 'CT'),\n    ('DE', 'DE'),\n    ('DC', 'DC'),",
-        "detail": "forms",
-        "documentation": {}
-    },
-    {
-        "label": "genres_list",
-        "kind": 5,
-        "importPath": "forms",
-        "description": "forms",
-        "peekOfCode": "genres_list = [\n    ('Alternative', 'Alternative'),\n    ('Blues', 'Blues'),\n    ('Classical', 'Classical'),\n    ('Country', 'Country'),\n    ('Electronic', 'Electronic'),\n    ('Folk', 'Folk'),\n    ('Funk', 'Funk'),\n    ('Hip-Hop', 'Hip-Hop'),\n    ('Heavy Metal', 'Heavy Metal'),",
+        "peekOfCode": "class VenueForm(FlaskForm):\n    name = StringField(\n        'name', validators=[DataRequired()]\n    )\n    city = StringField(\n        'city', validators=[DataRequired()]\n    )\n    state = SelectField(\n        'state', validators=[DataRequired()],\n        choices=State.choices()",
         "detail": "forms",
         "documentation": {}
     },

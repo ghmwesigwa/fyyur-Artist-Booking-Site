@@ -9,8 +9,14 @@ from logging import FileHandler, Formatter
 
 import dateutil.parser
 from babel import dates
-from flask import (Flask, abort, flash, redirect, render_template, request,
-                   url_for)
+from flask import (
+    Flask,
+    abort,
+    flash,
+    redirect,
+    render_template,
+    request,
+    url_for)
 from flask_migrate import Migrate
 from flask_moment import Moment
 from sqlalchemy import func
