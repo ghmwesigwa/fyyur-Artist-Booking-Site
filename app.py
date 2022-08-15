@@ -21,7 +21,6 @@ from flask_migrate import Migrate
 from flask_moment import Moment
 from sqlalchemy import func
 
-from config import SQLALCHEMY_DATABASE_URI
 from forms import ArtistForm, ShowForm, VenueForm
 from get_utility import getUtility
 from models.models import *
@@ -31,8 +30,6 @@ from models.models import *
 # ----------------------------------------------------------------------------#
 app = Flask(__name__, template_folder="./templates")
 app.config.from_object("config")
-app.config["SQLALCHEMY_DATABASE_URI"] = SQLALCHEMY_DATABASE_URI
-app.config["SQLALCHEMY_TRACK_MODIFICATIONS"] = False
 db.init_app(app)
 migrate = Migrate(app, db)
 moment = Moment(app)

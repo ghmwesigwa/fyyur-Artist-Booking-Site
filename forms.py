@@ -1,3 +1,4 @@
+import re
 from datetime import datetime
 
 from flask_wtf import FlaskForm
@@ -7,9 +8,13 @@ from wtforms import (
     SelectField,
     SelectMultipleField,
     StringField)
-from enums import Genre, State
-import re
 from wtforms.validators import URL, AnyOf, DataRequired
+
+from enums import Genre, State
+
+def is_valid_phone(number):
+    regex = re.compile('^\(?([0-9]{3})\)?[-. ]?([0-9]{3})[-. ]?([0-9]{4})$')
+    return regex.match(number)
 class ArtistForm(FlaskForm):
     name = StringField(
         'name', validators=[DataRequired()]
@@ -44,6 +49,21 @@ class ArtistForm(FlaskForm):
     seeking_description = StringField(
         'seeking_description'
     )
+
+def validate(self):
+    rv = ArtistForm.validate(self)
+    if not rv:
+        return False
+    if not is_valid_phone(self.phone.data):
+        self.phone.errors.append('Invalid phone.')
+        return False
+    if not set(self.genres.data).issubset(dict(Genre.choices()).keys()):
+        self.genres.errors.append('Invalid genres.')
+        return False
+    if self.state.data not in dict(State.choices()).keys():
+        self.state.errors.append('Invalid state.')
+        return False
+    return True
 
 
 class ShowForm(FlaskForm):
@@ -96,3 +116,18 @@ class VenueForm(FlaskForm):
     seeking_description = StringField(
         'seeking_description'
     )
+
+def validate(self):
+    rv = VenueForm.validate(self)
+    if not rv:
+        return False
+    if not is_valid_phone(self.phone.data):
+        self.phone.errors.append('Invalid phone.')
+        return False
+    if not set(self.genres.data).issubset(dict(Genre.choices()).keys()):
+        self.genres.errors.append('Invalid genres.')
+        return False
+    if self.state.data not in dict(State.choices()).keys():
+        self.state.errors.append('Invalid state.')
+        return False
+    return True
