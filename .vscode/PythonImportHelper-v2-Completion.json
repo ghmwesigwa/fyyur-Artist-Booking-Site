@@ -1,10 +1,42 @@
 [
     {
-        "label": "with_statement",
-        "importPath": "__future__",
-        "description": "__future__",
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
         "isExtraImport": true,
-        "detail": "__future__",
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "SQLAlchemy",
+        "importPath": "flask_sqlalchemy",
+        "description": "flask_sqlalchemy",
+        "isExtraImport": true,
+        "detail": "flask_sqlalchemy",
         "documentation": {}
     },
     {
@@ -33,19 +65,38 @@
         "documentation": {}
     },
     {
-        "label": "fileConfig",
-        "importPath": "logging.config",
-        "description": "logging.config",
+        "label": "os",
+        "kind": 6,
         "isExtraImport": true,
-        "detail": "logging.config",
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
         "documentation": {}
     },
     {
-        "label": "current_app",
-        "importPath": "flask",
-        "description": "flask",
+        "label": "sys",
+        "kind": 6,
         "isExtraImport": true,
-        "detail": "flask",
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "dateutil.parser",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "dateutil.parser",
+        "description": "dateutil.parser",
+        "detail": "dateutil.parser",
+        "documentation": {}
+    },
+    {
+        "label": "dates",
+        "importPath": "babel",
+        "description": "babel",
+        "isExtraImport": true,
+        "detail": "babel",
         "documentation": {}
     },
     {
@@ -118,89 +169,6 @@
         "description": "flask",
         "isExtraImport": true,
         "detail": "flask",
-        "documentation": {}
-    },
-    {
-        "label": "context",
-        "importPath": "alembic",
-        "description": "alembic",
-        "isExtraImport": true,
-        "detail": "alembic",
-        "documentation": {}
-    },
-    {
-        "label": "datetime",
-        "importPath": "datetime",
-        "description": "datetime",
-        "isExtraImport": true,
-        "detail": "datetime",
-        "documentation": {}
-    },
-    {
-        "label": "datetime",
-        "importPath": "datetime",
-        "description": "datetime",
-        "isExtraImport": true,
-        "detail": "datetime",
-        "documentation": {}
-    },
-    {
-        "label": "datetime",
-        "importPath": "datetime",
-        "description": "datetime",
-        "isExtraImport": true,
-        "detail": "datetime",
-        "documentation": {}
-    },
-    {
-        "label": "datetime",
-        "importPath": "datetime",
-        "description": "datetime",
-        "isExtraImport": true,
-        "detail": "datetime",
-        "documentation": {}
-    },
-    {
-        "label": "SQLAlchemy",
-        "importPath": "flask_sqlalchemy",
-        "description": "flask_sqlalchemy",
-        "isExtraImport": true,
-        "detail": "flask_sqlalchemy",
-        "documentation": {}
-    },
-    {
-        "label": "os",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "os",
-        "description": "os",
-        "detail": "os",
-        "documentation": {}
-    },
-    {
-        "label": "sys",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "sys",
-        "description": "sys",
-        "detail": "sys",
-        "documentation": {}
-    },
-    {
-        "label": "dateutil.parser",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "dateutil.parser",
-        "description": "dateutil.parser",
-        "detail": "dateutil.parser",
-        "documentation": {}
-    },
-    {
-        "label": "dates",
-        "importPath": "babel",
-        "description": "babel",
-        "isExtraImport": true,
-        "detail": "babel",
         "documentation": {}
     },
     {
@@ -427,51 +395,6 @@
         "description": "enums",
         "isExtraImport": true,
         "detail": "enums",
-        "documentation": {}
-    },
-    {
-        "label": "run_migrations_offline",
-        "kind": 2,
-        "importPath": "migrations.env",
-        "description": "migrations.env",
-        "peekOfCode": "def run_migrations_offline():\n    \"\"\"Run migrations in 'offline' mode.\n    This configures the context with just a URL\n    and not an Engine, though an Engine is acceptable\n    here as well.  By skipping the Engine creation\n    we don't even need a DBAPI to be available.\n    Calls to context.execute() here emit the given string to the\n    script output.\n    \"\"\"\n    url = config.get_main_option(\"sqlalchemy.url\")",
-        "detail": "migrations.env",
-        "documentation": {}
-    },
-    {
-        "label": "run_migrations_online",
-        "kind": 2,
-        "importPath": "migrations.env",
-        "description": "migrations.env",
-        "peekOfCode": "def run_migrations_online():\n    \"\"\"Run migrations in 'online' mode.\n    In this scenario we need to create an Engine\n    and associate a connection with the context.\n    \"\"\"\n    # this callback is used to prevent an auto-migration from being generated\n    # when there are no changes to the schema\n    # reference: http://alembic.zzzcomputing.com/en/latest/cookbook.html\n    def process_revision_directives(context, revision, directives):\n        if getattr(config.cmd_opts, 'autogenerate', False):",
-        "detail": "migrations.env",
-        "documentation": {}
-    },
-    {
-        "label": "config",
-        "kind": 5,
-        "importPath": "migrations.env",
-        "description": "migrations.env",
-        "peekOfCode": "config = context.config\n# Interpret the config file for Python logging.\n# This line sets up loggers basically.\nfileConfig(config.config_file_name)\nlogger = logging.getLogger('alembic.env')\n# add your model's MetaData object here\n# for 'autogenerate' support\n# from myapp import mymodel\n# target_metadata = mymodel.Base.metadata\nconfig.set_main_option(",
-        "detail": "migrations.env",
-        "documentation": {}
-    },
-    {
-        "label": "logger",
-        "kind": 5,
-        "importPath": "migrations.env",
-        "description": "migrations.env",
-        "peekOfCode": "logger = logging.getLogger('alembic.env')\n# add your model's MetaData object here\n# for 'autogenerate' support\n# from myapp import mymodel\n# target_metadata = mymodel.Base.metadata\nconfig.set_main_option(\n    'sqlalchemy.url',\n    str(current_app.extensions['migrate'].db.get_engine().url).replace(\n        '%', '%%'))\ntarget_metadata = current_app.extensions['migrate'].db.metadata",
-        "detail": "migrations.env",
-        "documentation": {}
-    },
-    {
-        "label": "target_metadata",
-        "kind": 5,
-        "importPath": "migrations.env",
-        "description": "migrations.env",
-        "peekOfCode": "target_metadata = current_app.extensions['migrate'].db.metadata\n# other values from the config, defined by the needs of env.py,\n# can be acquired:\n# my_important_option = config.get_main_option(\"my_important_option\")\n# ... etc.\ndef run_migrations_offline():\n    \"\"\"Run migrations in 'offline' mode.\n    This configures the context with just a URL\n    and not an Engine, though an Engine is acceptable\n    here as well.  By skipping the Engine creation",
-        "detail": "migrations.env",
         "documentation": {}
     },
     {

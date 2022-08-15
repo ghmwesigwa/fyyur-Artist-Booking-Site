@@ -1,6 +1,12 @@
-
-.env
+.git
+.gitattributes
 migrations/
 node_modules/
-secrets.env
 package*.json
+secrets.env
+venv
+env
+__pycache__
+node_modules
+.idea
+.vscode
